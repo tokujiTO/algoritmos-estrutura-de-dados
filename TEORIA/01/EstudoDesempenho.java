@@ -6,6 +6,8 @@ public class EstudoDesempenho {
     Random random = new Random();
     for (int i = 0; i < v.length; i++) {
       v[i] = random.nextInt(v.length * 10);
+      // v[i] = random.nextInt(v.length); -> Muita repetição
+      // v[i] = random.nextInt(-1); -> illegal argument segundo o java
     }
   }
 
