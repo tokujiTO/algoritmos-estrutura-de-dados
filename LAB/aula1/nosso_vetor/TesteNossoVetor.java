@@ -11,9 +11,21 @@ public class TesteNossoVetor {
     // }
 
     int i = 100;
-    while (v1.inserir(i++)){
-      System.out.println(i-1);
-    }
+    // while (v1.inserir(i++)){
+    //   System.out.println(i-1);
+    // }
     System.out.println(v1);
+
+    int a = v1.remover();
+    System.out.println(a + " foi removido");
+    System.out.println(v1);
+
+    // for (i = 1; i<10; i++){
+    //   System.out.println(v1.remover() + " foi removido");
+    // }
+
+    while(!v1.estaVazio()){
+      System.out.println(v1.remover() + " foi removido");
+    }
   }
 }
