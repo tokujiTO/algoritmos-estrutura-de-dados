@@ -11,11 +11,28 @@ public class NossoVetor {
     this(10);
   }
 
-  public void inserir(int i) {
-    if (ocupacao < vetor.length) {
-      vetor[ocupacao++] = i; // como o ++ aparece dps de ocupação, n tem problema pois ele so incrementa após fazer a inserção
+  public boolean inserir(int i) {
+    if (!estaCheio()) {
+      // como o ++ aparece dps de ocupação, n tem problema pois ele so incrementa após fazer a inserção
+      vetor[ocupacao++] = i; 
+      return true;
     }
+    return false;
+  }
 
+  
+
+  public boolean estaCheio() {
+    return ocupacao == vetor.length;
+  }
+
+  @Override
+  public String toString() {
+    String s = "ocupacao = " + ocupacao + "\n";
+    for (int i=0; i< ocupacao; i++){
+      s += vetor[i] + " ";
+    }
+    return s + "\n";
   }
 }
 
