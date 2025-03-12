@@ -1,3 +1,4 @@
+import java.util.Date;
 import java.util.Scanner;
 
 public class TesteOrdenacao {
@@ -10,7 +11,23 @@ public class TesteOrdenacao {
     while (t > 0) {
       v = new NossoVetor(t);
       v.preencheVetor();
-      System.out.println(v);
+      // System.out.println(v);
+
+      long dateBefore = new Date().getTime();
+      v.bubbleSort();
+      long dateAfter = new Date().getTime();
+      long timeToComplete = dateAfter - dateBefore;
+      System.out.println("\nTempo para completar bubblesort em milisegundos: " + timeToComplete);
+
+      v.preencheVetor();
+
+      dateAfter = new Date().getTime();
+      v.selctionSort();
+      dateAfter = new Date().getTime();
+      timeToComplete = dateAfter - dateBefore;
+      System.out.println("\nTempo para completar selectionsort em milisegundos: " + timeToComplete);
+      
+      // System.out.println("\nVetor ordenado:\n" + v);
 
       System.out.println("\nEscolha um novo tamanho(0 encerra): ");
       t = scanner.nextInt();
@@ -18,3 +35,16 @@ public class TesteOrdenacao {
     scanner.close();
   }
 }
+
+//       long dateBefore = new Date().getTime();
+//       v.preencheVetor();
+//       long dateAfter = new Date().getTime();
+//       long timeToComplete = dateAfter - dateBefore;
+//       System.out.println("Tempo para completar o preenche vetor em milisegundos: " + timeToComplete);
+//       // System.out.println(v);
+
+//       dateBefore = new Date().getTime();
+//       v.bubbleSort();
+//       dateAfter = new Date().getTime();
+//       timeToComplete = dateAfter - dateBefore;
+//       System.out.println("\nTempo para completar bubblesort em milisegundos: " + timeToComplete);

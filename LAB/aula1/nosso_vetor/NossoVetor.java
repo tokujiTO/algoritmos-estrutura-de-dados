@@ -81,6 +81,26 @@ public class NossoVetor {
     return s + "\n";
   }
 
+  public void selctionSort() {
+    for (int i = 0 ; i < vetor.length-1 ; i++){
+      int min = i;
+      for (int j = i+1; j<vetor.length; ++j) if (vetor[j]<vetor[min]) min = j;
+      int x = vetor[i]; vetor[i] = vetor[min]; vetor[min] = x;
+    }
+  }
+
+  public void bubbleSort(){
+    for(int i=1; i<vetor.length; i++){
+      for(int j=0; j<vetor.length-i; j++){
+        if(vetor[j] > vetor[j+1]){
+          int aux = vetor[j];
+          vetor[j] = vetor[j+1];
+          vetor[j+1] = aux;
+        }
+      }
+    }
+  }
+
   // private void dobraVetor() {
   //   // instancia um temporário com o dobro do tamanho
   //   int[] vetorTemp = new int[vetor.length*2];
