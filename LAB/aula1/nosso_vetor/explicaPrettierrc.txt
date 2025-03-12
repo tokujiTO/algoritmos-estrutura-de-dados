@@ -1,0 +1,1 @@
+// para que o prettier funcione, rode "npm install --save-dev prettier prettier-plugin-java"

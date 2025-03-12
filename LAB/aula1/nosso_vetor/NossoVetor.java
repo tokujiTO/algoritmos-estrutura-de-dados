@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class NossoVetor {
   private int ocupacao;
   private int[] vetor;
@@ -36,13 +38,30 @@ public class NossoVetor {
   //   return -1;
   // }
 
-  public int remover() {
-    if (!estaVazio()){
-      int i = vetor[--ocupacao];
-      if(vetor.length >= 4 && ocupacao <= vetor.length/4) redimencionaVetor(vetor.length/2);
-      return i;
+  // public int remover() {
+  //   if (!estaVazio()){
+  //     int i = vetor[--ocupacao];
+  //     if(vetor.length >= 4 && ocupacao <= vetor.length/4) redimencionaVetor(vetor.length/2);
+  //     return i;
+  //   }
+  //   return -1;
+  // }
+
+  public int remover(){
+    if (estaVazio()) throw new VetorVazioException("Vetor vazio, não há o que remvover");
+    int i = vetor[--ocupacao];
+    if (vetor.length >= 4 && ocupacao <= vetor.length/4){
+      redimencionaVetor(vetor.length / 2);
+    } 
+    return i;
+  }
+
+  public void preencheVetor() {
+    Random random = new Random();
+    for (int i = 0; i<vetor.length; i++){
+      vetor[i] = random.nextInt(vetor.length*10);
     }
-    return -1;
+    ocupacao = vetor.length;
   }
 
   public boolean estaVazio() {
@@ -88,6 +107,12 @@ public class NossoVetor {
       vetorTemp[i] = vetor[i];
     }
     vetor = vetorTemp;
+  }
+}
+
+class VetorVazioException extends RuntimeException {
+  public VetorVazioException(String msg) {
+    super(msg);
   }
 }
 
