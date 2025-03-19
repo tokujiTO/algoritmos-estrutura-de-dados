@@ -54,6 +54,38 @@ public class ListaSimplesCopia {
     return removido;
   }
 
+  public void inserePosicao(int elemento, int poisition) {
+    // busca a posição e insere o elemento na posição
+    // a primeira posição é 1
+    No novo = new No(elemento);
+    No anterior = primeiro;
+    No posterior = primeiro.getProximo();
+    for (int i = 1; i < poisition; i++) {
+      anterior = anterior.getProximo();
+      posterior = posterior.getProximo();
+    }
+    anterior.setProximo(novo);
+    novo.setProximo(posterior);
+  }
+
+  public boolean removeElemento(int elemento) {
+    // busca o elemento e o remove da lista se encontrado
+    No runner = primeiro;
+    while (runner.getProximo() != null && runner.getProximo().getInfo() != elemento) {
+      runner = runner.getProximo();
+    }
+    if (runner.getProximo() == null && runner.getInfo() != elemento) {
+      return false;
+    }
+    if (runner.getProximo() != ultimo) {
+      runner.setProximo(runner.getProximo().getProximo());
+    } else {
+      runner.setProximo(null);
+      ultimo = runner;
+    }
+    return true;
+  }
+
   @Override
   public String toString() {
     String s = "lista: ";
