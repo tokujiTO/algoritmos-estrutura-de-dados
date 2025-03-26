@@ -57,33 +57,72 @@ public class ListaSimplesCopia {
   public void inserePosicao(int elemento, int poisition) {
     // busca a posição e insere o elemento na posição
     // a primeira posição é 1
-    No novo = new No(elemento);
-    No anterior = primeiro;
-    No posterior = primeiro.getProximo();
-    for (int i = 1; i < poisition; i++) {
-      anterior = anterior.getProximo();
-      posterior = posterior.getProximo();
+    // No novo = new No(elemento);
+    // No anterior = primeiro;
+    // No posterior = primeiro.getProximo();
+    // for (int i = 1; i < poisition; i++) {
+    //   anterior = anterior.getProximo();
+    //   posterior = posterior.getProximo();
+    // }
+    // anterior.setProximo(novo);
+    // novo.setProximo(posterior);
+    if (estaVazia() || poisition == 1){
+      insereInicio(elemento);
+    } else {
+      // search for the position without falling of the list
+      No runner = primeira;
+      int pos = 1;
+      while(runner != ultimo && pos < position - 1) {
+        pos++;
+        runner = runner.getProximo();
+      }
+      // por que saiu do laço?
+      if (pos == position - 1 ){
+        // chegamso à posição no meio da lista
+        No novo = new No(elemento);
+        novo.setProximo(runner.getProximo());
+        runner.setProximo(novo);
+      } else {
+        // chegamos ao ultimo da lista
+        insereFim(elemento);
+      }
     }
-    anterior.setProximo(novo);
-    novo.setProximo(posterior);
   }
 
   public boolean removeElemento(int elemento) {
     // busca o elemento e o remove da lista se encontrado
-    No runner = primeiro;
-    while (runner.getProximo() != null && runner.getProximo().getInfo() != elemento) {
-      runner = runner.getProximo();
-    }
-    if (runner.getProximo() == null && runner.getInfo() != elemento) {
-      return false;
-    }
-    if (runner.getProximo() != ultimo) {
-      runner.setProximo(runner.getProximo().getProximo());
+    // No runner = primeiro;
+    // while (runner.getProximo() != null && runner.getProximo().getInfo() != elemento) {
+    //   runner = runner.getProximo();
+    // }
+    // if (runner.getProximo() == null && runner.getInfo() != elemento) {
+    //   return false;
+    // }
+    // if (runner.getProximo() != ultimo) {
+    //   runner.setProximo(runner.getProximo().getProximo());
+    // } else {
+    //   runner.setProximo(null);
+    //   ultimo = runner;
+    // }
+    // return true;
+    if (primeiro.getInfo() == elemento) {
+      removeInicio();
+      return true;
     } else {
-      runner.setProximo(null);
-      ultimo = runner;
+      No anterior = primeiro;
+      No atual = primeiro.getProximo();
+      while (atual != null && atual.getInfo() != elemento) {
+        anterior = atual;
+        atual = atual.getProximo();
+      }
+      if (atual == null) {
+        return false;
+      } else {
+        // achamos o elemento
+        anterior.setProximo(atual.getProximo());
+        return true;
+      }
     }
-    return true;
   }
 
   @Override
