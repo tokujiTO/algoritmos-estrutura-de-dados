@@ -54,7 +54,7 @@ public class ListaSimplesCopia {
     return removido;
   }
 
-  public void inserePosicao(int elemento, int poisition) {
+  public void inserePosicao(int elemento, int position) {
     // busca a posição e insere o elemento na posição
     // a primeira posição é 1
     // No novo = new No(elemento);
@@ -66,11 +66,11 @@ public class ListaSimplesCopia {
     // }
     // anterior.setProximo(novo);
     // novo.setProximo(posterior);
-    if (estaVazia() || poisition == 1){
+    if (estaVazia() || position <= 1){
       insereInicio(elemento);
     } else {
       // search for the position without falling of the list
-      No runner = primeira;
+      No runner = primeiro;
       int pos = 1;
       while(runner != ultimo && pos < position - 1) {
         pos++;
