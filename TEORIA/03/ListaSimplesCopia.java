@@ -77,7 +77,7 @@ public class ListaSimplesCopia {
         runner = runner.getProximo();
       }
       // por que saiu do laço?
-      if (pos == position - 1 ){
+      if (pos == position - 1 ){ 
         // chegamso à posição no meio da lista
         No novo = new No(elemento);
         novo.setProximo(runner.getProximo());
