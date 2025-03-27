@@ -67,7 +67,7 @@ public class NossoVetor {
     long counter = 0;
     boolean trocou = true;
     for (int i = 0; i < ocupacao - 1 && trocou; i++) {  // Usar ocupacao, não vetor.length
-        trocou = false;
+        trocou = false; 
         for (int j = 0; j < ocupacao - i - 1; j++) {  // Limite corrigido
             if (vetor[j] > vetor[j + 1]) {
                 int aux = vetor[j];
@@ -80,7 +80,7 @@ public class NossoVetor {
         // if (!trocou) break;   // Otimização: se não houve trocas, o vetor já está ordenado
     }
     return counter;
-}
+    }
 
     public void selectionsort() {
       for (int i = 0; i < vetor.length - 1; ++i) {

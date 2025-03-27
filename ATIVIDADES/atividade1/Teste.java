@@ -5,6 +5,7 @@ public class Teste {
     // vamos testar a eficácia dos métodos de ordenação
     Scanner scanner = new Scanner(System.in);
     int tamanho = 0;
+    boolean segue = true;
     do {
       System.out.println("Selecione um tamanho: \n");
       System.out.println("[1] - 100m\n");
@@ -35,8 +36,11 @@ public class Teste {
           break;
         default:
           System.out.println("Fim das operacoes");
+          segue = false;
           break;
       };
+
+      if (!segue) break;
 
       NossoVetor vetor = new NossoVetor(tamanho);
 
@@ -55,9 +59,11 @@ public class Teste {
         somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
       }
       long tempoFinal = System.currentTimeMillis();
-      System.out.println("\nMedia de trocas: " + (soma / 30));
-      System.out.println("Tempo total: " + Math.round((tempoFinal - tempoInicial)/100)/10 + "segundos");
-      System.out.println("Media para completar: " + (Math.round((somaTempo/100))/10)/30 + "segundos");
+      double tempoTotalSegundos = (tempoFinal - tempoInicial)/1000.0;
+      System.out.printf("\nMedia de trocas: " + (soma / 30) );
+      double mediaSegundos = (somaTempo/30.0)/1000.0;
+      System.out.printf("\nTempo total: %.1f segundos\n", tempoTotalSegundos);
+      System.out.printf("Media para completar: %.1f segundos\n", mediaSegundos);
 
 
     } while (tamanho != 0);
