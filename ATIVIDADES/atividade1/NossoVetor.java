@@ -65,8 +65,8 @@ public class NossoVetor {
 
     public long bubbleSort() {
     long counter = 0;
-    boolean trocou;
-    for (int i = 0; i < ocupacao - 1; i++) {  // Usar ocupacao, não vetor.length
+    boolean trocou = true;
+    for (int i = 0; i < ocupacao - 1 && trocou; i++) {  // Usar ocupacao, não vetor.length
         trocou = false;
         for (int j = 0; j < ocupacao - i - 1; j++) {  // Limite corrigido
             if (vetor[j] > vetor[j + 1]) {
