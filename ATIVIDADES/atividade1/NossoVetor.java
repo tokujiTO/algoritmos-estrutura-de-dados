@@ -77,7 +77,7 @@ public class NossoVetor {
                 trocou = true;
             }
         }
-        if (!trocou) break;  // Otimização: se não houve trocas, o vetor já está ordenado
+        // if (!trocou) break;   // Otimização: se não houve trocas, o vetor já está ordenado
     }
     return counter;
 }

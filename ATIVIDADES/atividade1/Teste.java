@@ -16,10 +16,6 @@ public class Teste {
       
       tamanho = scanner.nextInt();
 
-      if (tamanho == 0) {
-        break;
-      }
-
       switch (tamanho) {
         case 1:
           tamanho = 100000;
@@ -37,7 +33,6 @@ public class Teste {
           tamanho = 1600000;
           break;
         default:
-          System.out.println("Opção inválida");
           break;
       };
 
