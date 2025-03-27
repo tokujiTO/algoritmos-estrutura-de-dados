@@ -14,6 +14,7 @@ public class Teste {
       System.out.println("[5] - 1,6M\n");
       System.out.println("cancelar - 0\n");
       
+      System.err.println("Opcao: ");
       tamanho = scanner.nextInt();
 
       switch (tamanho) {
