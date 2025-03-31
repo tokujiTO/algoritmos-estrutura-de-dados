@@ -15,7 +15,7 @@ public class Teste {
       System.out.println("[5] - 1,6M\n");
       System.out.println("cancelar - 0\n");
       
-      System.err.println("Opcao: ");
+      System.out.println("Opcao: ");
       tamanho = scanner.nextInt();
 
       switch (tamanho) {
@@ -38,26 +38,73 @@ public class Teste {
           System.out.println("Fim das operacoes");
           segue = false;
           break;
-      };
-
-      if (!segue) break;
+      }
+      ;
 
       NossoVetor vetor = new NossoVetor(tamanho);
+
+      System.out.println("Selecione um sort:\n");
+      System.out.println("[1] Selection Sort\n");
+      System.out.println("[2] Insertion Sort\n");
+      System.out.println("[3] Buble Sort\n");
+      System.out.println("[4] Cancelar\n");
+
+      System.out.println("Opção: ");
+      sort = scanner.nextInt();
+      
 
       long soma = 0;
       long somaTempo = 0;
       long tempoInicial = System.currentTimeMillis();
-      for (int i = 0; i < 30; i++) {
-        vetor.preencheVetor();
-        System.err.println("\n" + (i + 1) + ")");
-        long tempoInicialOrdenacao = System.currentTimeMillis();
-        long iteracoes = vetor.bubbleSort();
-        System.out.println("\nQuantidade de trocas: " + iteracoes);
-        long tempoFinalOrdenacao = System.currentTimeMillis();
-        System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
-        soma += iteracoes;
-        somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
+
+      switch (sort) {
+        case 1:
+          for (int i = 0; i < 30; i++) {
+            vetor.preencheVetor();
+            System.err.println("\n" + (i + 1) + ")");
+            long tempoInicialOrdenacao = System.currentTimeMillis();
+            long iteracoes = vetor.selectionsort();
+            System.out.println("\nQuantidade de trocas: " + iteracoes);
+            long tempoFinalOrdenacao = System.currentTimeMillis();
+            System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
+            soma += iteracoes;
+            somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
+          }
+          break;
+        case 2:
+          for (int i = 0; i < 30; i++) {
+            vetor.preencheVetor();
+            System.err.println("\n" + (i + 1) + ")");
+            long tempoInicialOrdenacao = System.currentTimeMillis();
+            long iteracoes = vetor.insertionSort();
+            System.out.println("\nQuantidade de trocas: " + iteracoes);
+            long tempoFinalOrdenacao = System.currentTimeMillis();
+            System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
+            soma += iteracoes;
+            somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
+          }
+          break;
+        case 3:
+          for (int i = 0; i < 30; i++) {
+            vetor.preencheVetor();
+            System.err.println("\n" + (i + 1) + ")");
+            long tempoInicialOrdenacao = System.currentTimeMillis();
+            long iteracoes = vetor.bubbleSort();
+            System.out.println("\nQuantidade de trocas: " + iteracoes);
+            long tempoFinalOrdenacao = System.currentTimeMillis();
+            System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
+            soma += iteracoes;
+            somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
+          }
+          break;
+        default:
+          System.out.println("Fim das operacoes");
+          segue = false;
+          break;
       }
+
+      if (!segue) break;
+
       long tempoFinal = System.currentTimeMillis();
       double tempoTotalSegundos = (tempoFinal - tempoInicial)/1000.0;
       System.out.printf("\nMedia de trocas: " + (soma / 30) );
@@ -66,6 +113,7 @@ public class Teste {
       System.out.printf("Media para completar: %.1f segundos\n", mediaSegundos);
 
 
+      
     } while (tamanho != 0);
     scanner.close();
   }
