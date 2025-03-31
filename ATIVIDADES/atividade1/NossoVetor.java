@@ -82,18 +82,20 @@ public class NossoVetor {
     return counter;
     }
 
-    // CORRIGIR O SELECTION SORT
     public long selectionsort() {
         long counter = 0;
         for (int i = 0; i < vetor.length - 1; ++i) {
             int min = i;
             for (int j = i + 1; j < vetor.length; ++j)
                 if (vetor[j] < vetor[min])
-                    counter++;
                     min = j;
-            int x = vetor[i];
-            vetor[i] = vetor[min];
-            vetor[min] = x;
+
+            if (min != i) {
+                int x = vetor[i];
+                vetor[i] = vetor[min];
+                vetor[min] = x;
+                counter++;
+            }
         }
         return counter;
     }
@@ -104,10 +106,11 @@ public class NossoVetor {
         for (int j = 1; j < vetor.length; ++j) {
             int x = vetor[j];
             int i;
-            for (i = j - 1; i >= 0 && vetor[i] > x; --i)
+            for (i = j - 1; i >= 0 && vetor[i] > x; --i) {
                 vetor[i + 1] = vetor[i];
+                counter++;
+            }
             vetor[i + 1] = x;
-            counter++;
         }
         return counter;
     }
