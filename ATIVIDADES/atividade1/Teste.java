@@ -50,7 +50,7 @@ public class Teste {
       System.out.println("[4] Cancelar\n");
 
       System.out.println("Opção: ");
-      sort = scanner.nextInt();
+      int sort = scanner.nextInt();
       
 
       long soma = 0;
