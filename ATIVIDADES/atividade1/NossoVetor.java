@@ -89,11 +89,11 @@ public class NossoVetor {
             int min = i;
             for (int j = i + 1; j < vetor.length; ++j)
                 if (vetor[j] < vetor[min])
+                    counter++;
                     min = j;
             int x = vetor[i];
             vetor[i] = vetor[min];
             vetor[min] = x;
-            counter++;
         }
         return counter;
     }
