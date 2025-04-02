@@ -160,9 +160,3 @@ public class NossoVetor {
         return contadorBinario;
     }
 }
-
-class VetorVazioException extends RuntimeException {
-    public VetorVazioException(String msg) {
-        super(msg);
-    }
-}
