@@ -126,26 +126,26 @@ public class NossoVetor {
         return counter;
     }
 
-    public int buscaLinear(int elemento) {
-        int contadorLinear = 0;
+    public long buscaLinear(int elemento) {
+        long contadorLinear = 0;
 
         for (int i = 0; i < this.vetor.length; i++) {
             contadorLinear++;
             if (this.vetor[i] == elemento) {
-                // System.out.println(i);
+                // System.out.prlongln(i);
                 return contadorLinear;
             }
         }
         return contadorLinear;
     }
 
-    public int buscaBinaria(int elemento) {
-        int contadorBinario = 0;
+    public long buscaBinaria(int elemento) {
+        long contadorBinario = 0;
 
         int inicio = 0;
         int fim = this.vetor.length - 1;
         while (inicio <= fim) {
-            int meio = (inicio + fim) / 2;
+            int meio = ((inicio + fim) / 2);
             contadorBinario++;
             if (this.vetor[meio]  == elemento ) {
                 return contadorBinario;
@@ -158,5 +158,11 @@ public class NossoVetor {
             }
         }
         return contadorBinario;
+    }
+}
+
+class VetorVazioException extends RuntimeException {
+    public VetorVazioException(String msg) {
+        super(msg);
     }
 }

@@ -79,11 +79,11 @@ public class Teste {
             System.out.println("Busca Linear: " + buscaLi);
             vetor.esvaziaVetor();
             vetor.preencheVetor();
-            somaBinaria += buscaBi;
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.selectionsort();
             long buscaBi = vetor.buscaBinaria(500000);
             System.out.println("Busca Binaria: " + buscaBi);
+            somaBinaria += buscaBi;
             System.out.println("\nQuantidade de trocas: " + iteracoes);
             long tempoFinalOrdenacao = System.currentTimeMillis();
             System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
@@ -100,11 +100,11 @@ public class Teste {
             System.out.println("Busca Linear: " + buscaLi);
             vetor.esvaziaVetor();
             vetor.preencheVetor();
-            somaBinaria += buscaBi;
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.insertionSort();
             long buscaBi = vetor.buscaBinaria(500000);
             System.out.println("Busca Binaria: " + buscaBi);
+            somaBinaria += buscaBi;
             System.out.println("\nQuantidade de trocas: " + iteracoes);
             long tempoFinalOrdenacao = System.currentTimeMillis();
             System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
@@ -121,11 +121,11 @@ public class Teste {
             System.out.println("Busca Linear: " + buscaLi);
             vetor.esvaziaVetor();
             vetor.preencheVetor();
-            somaBinaria += buscaBi;
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.bubbleSort();
             long buscaBi = vetor.buscaBinaria(500000);
             System.out.println("Busca Binaria: " + buscaBi);
+            somaBinaria += buscaBi;
             System.out.println("\nQuantidade de trocas: " + iteracoes);
             long tempoFinalOrdenacao = System.currentTimeMillis();
             System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
