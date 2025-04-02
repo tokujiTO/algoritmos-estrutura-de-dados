@@ -7,7 +7,7 @@ public class Teste {
     int tamanho = 0;
     boolean segue = true;
     do {
-      System.out.println("Selecione um tamanho: \n");
+      System.out.println("\n\nSelecione um tamanho: \n");
       System.out.println("[1] - 100m\n");
       System.out.println("[2] - 200m\n");
       System.out.println("[3] - 400m\n");
@@ -143,7 +143,7 @@ public class Teste {
 
       long tempoFinal = System.currentTimeMillis();
       double tempoTotalSegundos = (tempoFinal - tempoInicial)/1000.0;
-      System.out.printf("\nMedia de trocas: " + (somaTrocas / (tamanho == 30.0 ? 30.0 : 10.0) ) );
+      System.out.printf("\nMedia de trocas: " + (somaTrocas / (tamanho == 30.0 ? 30 : 10) ) );
       double mediaSegundos = (somaTempo/numIteracoes)/1000.0;
       System.out.printf("\nTempo total: %.1f segundos\n", tempoTotalSegundos);
       System.out.printf("Media para completar: %.1f segundos\n", mediaSegundos);
