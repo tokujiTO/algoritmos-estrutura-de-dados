@@ -51,7 +51,7 @@ public class Teste {
       System.out.println("Selecione um sort:\n");
       System.out.println("[1] Selection Sort\n");
       System.out.println("[2] Insertion Sort\n");
-      System.out.println("[3] Buble Sort\n");
+      System.out.println("[3] Bubble Sort\n");
       System.out.println("[4] Cancelar\n");
 
       System.out.println("Opção: ");
