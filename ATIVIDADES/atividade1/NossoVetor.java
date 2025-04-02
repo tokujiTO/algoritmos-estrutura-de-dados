@@ -73,7 +73,7 @@ public class NossoVetor {
                 int aux = vetor[j];
                 vetor[j] = vetor[j + 1];
                 vetor[j + 1] = aux;
-                counter++;
+                counter = counter + 3; // 3 trocas para ficar "Justo" com os outros métodos
                 trocou = true;
             }
         }

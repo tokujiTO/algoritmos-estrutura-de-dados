@@ -35,6 +35,7 @@ public class Teste {
           tamanho = 1600000;
           break;
         default:
+          tamanho = 0;
           System.out.println("Fim das operacoes");
           segue = false;
           break;
@@ -56,12 +57,18 @@ public class Teste {
       long soma = 0;
       long somaTempo = 0;
       long tempoInicial = System.currentTimeMillis();
+      long numIteracoes = 30;
+      if (tamanho == 1600000) {
+        System.out.println("vetor de 1.6M !!");
+        numIteracoes = 10;
+      }
+
+      vetor.preencheVetor();
 
       switch (sort) {
         case 1:
-          for (int i = 0; i < 30; i++) {
-            vetor.preencheVetor();
-            System.err.println("\n" + (i + 1) + ")");
+          for (int i = 0; i < numIteracoes; i++) {
+            System.out.println("\n" + (i + 1) + ")");
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.selectionsort();
             System.out.println("\nQuantidade de trocas: " + iteracoes);
@@ -72,9 +79,8 @@ public class Teste {
           }
           break;
         case 2:
-          for (int i = 0; i < 30; i++) {
-            vetor.preencheVetor();
-            System.err.println("\n" + (i + 1) + ")");
+          for (int i = 0; i < numIteracoes; i++) {
+            System.out.println("\n" + (i + 1) + ")");
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.insertionSort();
             System.out.println("\nQuantidade de trocas: " + iteracoes);
@@ -85,9 +91,8 @@ public class Teste {
           }
           break;
         case 3:
-          for (int i = 0; i < 30; i++) {
-            vetor.preencheVetor();
-            System.err.println("\n" + (i + 1) + ")");
+          for (int i = 0; i < numIteracoes; i++) {
+            System.out.println("\n" + (i + 1) + ")");
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.bubbleSort();
             System.out.println("\nQuantidade de trocas: " + iteracoes);
@@ -107,7 +112,7 @@ public class Teste {
 
       long tempoFinal = System.currentTimeMillis();
       double tempoTotalSegundos = (tempoFinal - tempoInicial)/1000.0;
-      System.out.printf("\nMedia de trocas: " + (soma / 30) );
+      System.out.printf("\nMedia de trocas: " + (soma / numIteracoes) );
       double mediaSegundos = (somaTempo/30.0)/1000.0;
       System.out.printf("\nTempo total: %.1f segundos\n", tempoTotalSegundos);
       System.out.printf("Media para completar: %.1f segundos\n", mediaSegundos);
