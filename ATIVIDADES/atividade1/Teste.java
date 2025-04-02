@@ -58,7 +58,7 @@ public class Teste {
       int sort = scanner.nextInt();
       
 
-      long soma = 0;
+      long somaTrocas = 0;
       long somaTempo = 0;
       long somaLinear = 0;
       long somaBinaria = 0;
@@ -87,7 +87,7 @@ public class Teste {
             System.out.println("\nQuantidade de trocas: " + iteracoes);
             long tempoFinalOrdenacao = System.currentTimeMillis();
             System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
-            soma += iteracoes;
+            somaTrocas += iteracoes;
             somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
           }
           break;
@@ -108,7 +108,7 @@ public class Teste {
             System.out.println("\nQuantidade de trocas: " + iteracoes);
             long tempoFinalOrdenacao = System.currentTimeMillis();
             System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
-            soma += iteracoes;
+            somaTrocas += iteracoes;
             somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
           }
           break;
@@ -129,7 +129,7 @@ public class Teste {
             System.out.println("\nQuantidade de trocas: " + iteracoes);
             long tempoFinalOrdenacao = System.currentTimeMillis();
             System.out.println("Tempo de ordenacao: " + (tempoFinalOrdenacao - tempoInicialOrdenacao) + "ms");
-            soma += iteracoes;
+            somaTrocas += iteracoes;
             somaTempo += tempoFinalOrdenacao - tempoInicialOrdenacao;
           }
           break;
@@ -143,7 +143,7 @@ public class Teste {
 
       long tempoFinal = System.currentTimeMillis();
       double tempoTotalSegundos = (tempoFinal - tempoInicial)/1000.0;
-      System.out.printf("\nMedia de trocas: " + (soma / numIteracoes) );
+      System.out.printf("\nMedia de trocas: " + (somaTrocas / (tamanho == 30.0 ? 30.0 : 10.0) ) );
       double mediaSegundos = (somaTempo/numIteracoes)/1000.0;
       System.out.printf("\nTempo total: %.1f segundos\n", tempoTotalSegundos);
       System.out.printf("Media para completar: %.1f segundos\n", mediaSegundos);
