@@ -60,6 +60,8 @@ public class Teste {
 
       long soma = 0;
       long somaTempo = 0;
+      long somaLinear = 0;
+      long somaBinaria = 0;
       long tempoInicial = System.currentTimeMillis();
       double numIteracoes = 30.0;
       if (tamanho == 1600000) {
@@ -73,11 +75,13 @@ public class Teste {
           for (int i = 0; i < numIteracoes; i++) {
             System.out.println("\n" + (i + 1) + ")");
             long buscaLi = vetor.buscaLinear(500000);
+            somaLinear += buscaLi;
             System.out.println("Busca Linear: " + buscaLi);
             vetor.esvaziaVetor();
             vetor.preencheVetor();
             long buscaBi = vetor.buscaBinaria(500000);
             System.out.println("Busca Binaria: " + buscaBi);
+            somaBinaria += buscaBi;
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.selectionsort();
             System.out.println("\nQuantidade de trocas: " + iteracoes);
@@ -92,11 +96,13 @@ public class Teste {
           for (int i = 0; i < numIteracoes; i++) {
             System.out.println("\n" + (i + 1) + ")");
             long buscaLi = vetor.buscaLinear(500000);
+            somaLinear += buscaLi;
             System.out.println("Busca Linear: " + buscaLi);
             vetor.esvaziaVetor();
             vetor.preencheVetor();
             long buscaBi = vetor.buscaBinaria(500000);
             System.out.println("Busca Binaria: " + buscaBi);
+            somaBinaria += buscaBi;
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.insertionSort();
             System.out.println("\nQuantidade de trocas: " + iteracoes);
@@ -111,11 +117,13 @@ public class Teste {
           for (int i = 0; i < numIteracoes; i++) {
             System.out.println("\n" + (i + 1) + ")");
             long buscaLi = vetor.buscaLinear(500000);
+            somaLinear += buscaLi;
             System.out.println("Busca Linear: " + buscaLi);
             vetor.esvaziaVetor();
             vetor.preencheVetor();
             long buscaBi = vetor.buscaBinaria(500000);
             System.out.println("Busca Binaria: " + buscaBi);
+            somaBinaria += buscaBi;
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.bubbleSort();
             System.out.println("\nQuantidade de trocas: " + iteracoes);
@@ -139,6 +147,8 @@ public class Teste {
       double mediaSegundos = (somaTempo/numIteracoes)/1000.0;
       System.out.printf("\nTempo total: %.1f segundos\n", tempoTotalSegundos);
       System.out.printf("Media para completar: %.1f segundos\n", mediaSegundos);
+      System.out.printf("Media Busca Linear: %.1f\n", (somaLinear / numIteracoes));
+      System.out.printf("Media Busca Binaria: %.1f\n", (somaBinaria / numIteracoes));
 
 
       
