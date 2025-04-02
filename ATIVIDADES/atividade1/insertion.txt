@@ -735,4 +735,90 @@ Tempo de ordenacao: 103047ms
 Media de trocas: 159980674128
 Tempo total: 3119.4 segundos
 Media para completar: 104.0 segundos
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+5
+
+TAMANHO DO VETOR: 1600000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Buble Sort
+
+[4] Cancelar
+
+OpÃ§Ã£o:
+2
+vetor de 1.6M !!
+INSERTION SORT
+
+1)
+
+Quantidade de trocas: 640065621284
+Tempo de ordenacao: 89503ms
+
+2)
+
+Quantidade de trocas: 639857495161
+Tempo de ordenacao: 89343ms
+
+3)
+
+Quantidade de trocas: 640095654274
+Tempo de ordenacao: 89504ms
+
+4)
+
+Quantidade de trocas: 640285602055
+Tempo de ordenacao: 89058ms
+
+5)
+
+Quantidade de trocas: 639732860778
+Tempo de ordenacao: 90423ms
+
+6)
+
+Quantidade de trocas: 640148771613
+Tempo de ordenacao: 89043ms
+
+7)
+
+Quantidade de trocas: 640233717299
+Tempo de ordenacao: 89359ms
+
+8)
+
+Quantidade de trocas: 639842534632
+Tempo de ordenacao: 89087ms
+
+9)
+
+Quantidade de trocas: 639446698911
+Tempo de ordenacao: 88009ms
+
+10)
+
+Quantidade de trocas: 640437849359
+Tempo de ordenacao: 89542ms
+
+Media de trocas: 640014680536
+Tempo total: 893,0 segundos
+Media para completar: 29,8 segundos
 
