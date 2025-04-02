@@ -1,0 +1,738 @@
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+1
+
+TAMANHO DO VETOR: 100000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Buble Sort
+
+[4] Cancelar
+
+Opção:
+2
+INSERTION SORT
+
+1)
+
+Quantidade de trocas: 2489960334
+Tempo de ordenacao: 1636ms
+
+2)
+
+Quantidade de trocas: 2504921139
+Tempo de ordenacao: 1620ms
+3)
+
+Quantidade de trocas: 2494519441
+Tempo de ordenacao: 1604ms
+
+4)
+
+Quantidade de trocas: 2505888234
+Tempo de ordenacao: 1622ms
+
+5)
+
+Quantidade de trocas: 2495755463                                    
+Tempo de ordenacao: 1625ms
+
+6)
+
+Quantidade de trocas: 2491386381
+Tempo de ordenacao: 1624ms
+
+7)
+
+Quantidade de trocas: 2504161871
+Tempo de ordenacao: 2130ms
+
+8)
+
+Quantidade de trocas: 2502193559
+Tempo de ordenacao: 1624ms
+
+9)
+
+Quantidade de trocas: 2503020923
+Tempo de ordenacao: 1625ms
+
+10)
+
+Quantidade de trocas: 2496371886
+Tempo de ordenacao: 1621ms
+
+11)
+
+Quantidade de trocas: 2498180474
+Tempo de ordenacao: 1626ms
+
+12)
+
+Quantidade de trocas: 2507428301
+Tempo de ordenacao: 1642ms
+
+13)
+
+Quantidade de trocas: 2498620404
+Tempo de ordenacao: 1635ms
+
+14)
+
+Quantidade de trocas: 2501168861
+Tempo de ordenacao: 1640ms
+
+15)
+
+Quantidade de trocas: 2510837782
+Tempo de ordenacao: 1645ms
+
+16)
+
+Quantidade de trocas: 2488628379
+Tempo de ordenacao: 1613ms
+
+17)
+
+Quantidade de trocas: 2494948729
+Tempo de ordenacao: 1623ms
+
+18)
+
+Quantidade de trocas: 2504844119
+Tempo de ordenacao: 1626ms
+
+19)
+
+Quantidade de trocas: 2500138603
+Tempo de ordenacao: 1592ms
+
+20)
+
+Quantidade de trocas: 2495791353
+Tempo de ordenacao: 1610ms
+
+21)
+
+Quantidade de trocas: 2506193825
+Tempo de ordenacao: 1624ms
+
+22)
+
+Quantidade de trocas: 2506862519
+Tempo de ordenacao: 1622ms
+
+23)
+
+Quantidade de trocas: 2498833630
+Tempo de ordenacao: 1628ms
+
+24)
+
+Quantidade de trocas: 2493280693
+Tempo de ordenacao: 1617ms
+
+25)
+
+Quantidade de trocas: 2500132987
+Tempo de ordenacao: 1620ms
+
+26)
+
+Quantidade de trocas: 2499645555
+Tempo de ordenacao: 1629ms
+
+27)
+
+Quantidade de trocas: 2500134903
+Tempo de ordenacao: 1622ms
+
+28)
+
+Quantidade de trocas: 2483595836
+Tempo de ordenacao: 1620ms
+
+29)
+
+Quantidade de trocas: 2502496619
+Tempo de ordenacao: 1656ms
+
+30)
+
+Quantidade de trocas: 2495462198
+Tempo de ordenacao: 1633ms
+
+Media de trocas: 2499180166
+Tempo total: 49.3 segundos
+Media para completar: 1.6 segundos
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+2
+
+
+TAMANHO DO VETOR: 200000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Buble Sort
+[4] Cancelar
+
+Opção:                                                              
+2
+INSERTION SORT
+
+1)
+
+Quantidade de trocas: 9998161107
+Tempo de ordenacao: 6489ms
+
+2)
+
+Quantidade de trocas: 9984780541
+Tempo de ordenacao: 6482ms
+
+3)
+
+Quantidade de trocas: 10005836864
+Tempo de ordenacao: 6482ms
+
+4)
+
+Quantidade de trocas: 9991267916
+Tempo de ordenacao: 6536ms
+
+5)
+
+Quantidade de trocas: 10012974552
+Tempo de ordenacao: 6492ms
+
+6)
+
+Quantidade de trocas: 9972745532
+Tempo de ordenacao: 6482ms
+
+7)
+
+Quantidade de trocas: 9991167303
+Tempo de ordenacao: 6487ms
+
+8)
+
+Quantidade de trocas: 10014161249
+Tempo de ordenacao: 6498ms
+
+9)
+
+Quantidade de trocas: 9980719658
+Tempo de ordenacao: 6484ms
+
+10)
+
+Quantidade de trocas: 10005667283
+Tempo de ordenacao: 6487ms
+
+11)
+
+Quantidade de trocas: 9971255852
+Tempo de ordenacao: 6469ms
+
+12)
+
+Quantidade de trocas: 9991120120
+Tempo de ordenacao: 6502ms
+
+13)
+
+Quantidade de trocas: 9996338252
+Tempo de ordenacao: 6478ms
+
+14)
+
+Quantidade de trocas: 9990283003
+Tempo de ordenacao: 6482ms
+
+15)
+
+Quantidade de trocas: 9996067852
+Tempo de ordenacao: 6494ms
+
+16)
+
+Quantidade de trocas: 10016893695
+Tempo de ordenacao: 6538ms
+
+17)
+
+Quantidade de trocas: 9982407736
+Tempo de ordenacao: 6469ms
+
+18)
+
+Quantidade de trocas: 9983272309
+Tempo de ordenacao: 6473ms
+
+19)
+
+Quantidade de trocas: 9989537571
+Tempo de ordenacao: 6502ms
+
+20)
+
+Quantidade de trocas: 9986760085
+Tempo de ordenacao: 6479ms
+
+21)
+
+Quantidade de trocas: 10012949785
+Tempo de ordenacao: 6502ms
+
+22)
+
+Quantidade de trocas: 10018668311
+Tempo de ordenacao: 6506ms
+
+23)
+
+Quantidade de trocas: 9996365821
+Tempo de ordenacao: 6481ms
+
+24)
+
+Quantidade de trocas: 10013212748
+Tempo de ordenacao: 6491ms
+
+25)
+
+Quantidade de trocas: 10004855761
+Tempo de ordenacao: 6488ms
+
+26)
+
+Quantidade de trocas: 10003790421
+Tempo de ordenacao: 6490ms
+
+27)
+
+Quantidade de trocas: 9970042091
+Tempo de ordenacao: 6465ms
+
+28)
+
+Quantidade de trocas: 9998027613
+Tempo de ordenacao: 6498ms
+
+29)
+
+Quantidade de trocas: 10009610274
+Tempo de ordenacao: 6492ms
+
+30)
+
+Quantidade de trocas: 10005757667
+Tempo de ordenacao: 6485ms
+
+Media de trocas: 9996489965
+Tempo total: 194.8 segundos
+Media para completar: 6.5 segundos
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+3
+
+TAMANHO DO VETOR: 400000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Buble Sort
+
+[4] Cancelar
+
+Opção:
+2
+INSERTION SORT
+
+1)
+
+Quantidade de trocas: 39924198409
+Tempo de ordenacao: 25659ms
+
+2)
+
+Quantidade de trocas: 40022222624
+Tempo de ordenacao: 25788ms
+3)
+
+Quantidade de trocas: 39920312079
+Tempo de ordenacao: 25738ms
+
+4)
+
+Quantidade de trocas: 39968311023
+Tempo de ordenacao: 25811ms
+
+5)
+
+Quantidade de trocas: 39944087529                                   
+Tempo de ordenacao: 25776ms
+
+6)
+
+Quantidade de trocas: 39995653099
+Tempo de ordenacao: 25652ms
+
+7)
+
+Quantidade de trocas: 39991523605
+Tempo de ordenacao: 25662ms
+
+8)
+
+Quantidade de trocas: 39959037681
+Tempo de ordenacao: 25639ms
+
+9)
+
+Quantidade de trocas: 40027942146
+Tempo de ordenacao: 26710ms
+
+10)
+
+Quantidade de trocas: 39982482535
+Tempo de ordenacao: 25882ms
+
+11)
+
+Quantidade de trocas: 39991835268
+Tempo de ordenacao: 25659ms
+
+12)
+
+Quantidade de trocas: 39977694628
+Tempo de ordenacao: 25681ms
+
+13)
+
+Quantidade de trocas: 40038123232
+Tempo de ordenacao: 25700ms
+
+14)
+
+Quantidade de trocas: 40043599987
+Tempo de ordenacao: 25687ms
+
+15)
+
+Quantidade de trocas: 40044994594
+Tempo de ordenacao: 25709ms
+
+16)
+
+Quantidade de trocas: 39985950120
+Tempo de ordenacao: 25706ms
+
+17)
+
+Quantidade de trocas: 39980283846
+Tempo de ordenacao: 25774ms
+
+18)
+
+Quantidade de trocas: 39974036111
+Tempo de ordenacao: 25664ms
+
+19)
+
+Quantidade de trocas: 40011727526
+Tempo de ordenacao: 25722ms
+
+20)
+
+Quantidade de trocas: 39981036623
+Tempo de ordenacao: 25734ms
+
+21)
+
+Quantidade de trocas: 39962828967
+Tempo de ordenacao: 25791ms
+
+22)
+
+Quantidade de trocas: 40043676368
+Tempo de ordenacao: 25887ms
+
+23)
+
+Quantidade de trocas: 39986150293
+Tempo de ordenacao: 25807ms
+
+24)
+
+Quantidade de trocas: 40001982806
+Tempo de ordenacao: 25748ms
+
+25)
+
+Quantidade de trocas: 39999699763
+Tempo de ordenacao: 25670ms
+
+26)
+
+Quantidade de trocas: 39988291128
+Tempo de ordenacao: 25695ms
+
+27)
+
+Quantidade de trocas: 39931951416
+Tempo de ordenacao: 25643ms
+
+28)
+
+Quantidade de trocas: 40003936019
+Tempo de ordenacao: 25695ms
+
+29)
+
+Quantidade de trocas: 40018365828
+Tempo de ordenacao: 25697ms
+
+30)
+
+Quantidade de trocas: 39932646244
+Tempo de ordenacao: 25728ms
+
+Media de trocas: 39987819383
+Tempo total: 772.9 segundos
+Media para completar: 25.8 segundos
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+4
+
+TAMANHO DO VETOR: 800000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Buble Sort
+[4] Cancelar
+
+Opção:                                                              
+2
+INSERTION SORT
+
+1)
+
+Quantidade de trocas: 160032108862
+Tempo de ordenacao: 103934ms
+
+2)
+
+Quantidade de trocas: 160182203136
+Tempo de ordenacao: 104719ms
+
+3)
+
+Quantidade de trocas: 160057158888
+Tempo de ordenacao: 104079ms
+
+4)
+
+Quantidade de trocas: 159894030369
+Tempo de ordenacao: 104143ms
+
+5)
+
+Quantidade de trocas: 159990435415
+Tempo de ordenacao: 104504ms
+
+6)
+
+Quantidade de trocas: 160240849323
+Tempo de ordenacao: 104303ms
+
+7)
+
+Quantidade de trocas: 160026501532
+Tempo de ordenacao: 104023ms
+
+8)
+
+Quantidade de trocas: 159987596194
+Tempo de ordenacao: 104609ms
+
+9)
+
+Quantidade de trocas: 159874132275
+Tempo de ordenacao: 104295ms
+
+10)
+
+Quantidade de trocas: 159979115652
+Tempo de ordenacao: 104735ms
+
+11)
+
+Quantidade de trocas: 159795194014
+Tempo de ordenacao: 103785ms
+
+12)
+
+Quantidade de trocas: 159850791549
+Tempo de ordenacao: 102823ms
+
+13)
+
+Quantidade de trocas: 159991878988
+Tempo de ordenacao: 103655ms
+
+14)
+
+Quantidade de trocas: 160196530421
+Tempo de ordenacao: 103066ms
+
+15)
+
+Quantidade de trocas: 159964227821
+Tempo de ordenacao: 102768ms
+
+16)
+
+Quantidade de trocas: 159949904387
+Tempo de ordenacao: 102722ms
+
+17)
+
+Quantidade de trocas: 159968588649
+Tempo de ordenacao: 104750ms
+
+18)
+
+Quantidade de trocas: 160117760768
+Tempo de ordenacao: 104998ms
+
+19)
+
+Quantidade de trocas: 160015009302
+Tempo de ordenacao: 103688ms
+
+20)
+
+Quantidade de trocas: 160092086289
+Tempo de ordenacao: 103304ms
+
+21)
+
+Quantidade de trocas: 160020124580
+Tempo de ordenacao: 103169ms
+
+22)
+
+Quantidade de trocas: 160037527990
+Tempo de ordenacao: 102800ms
+
+23)
+
+Quantidade de trocas: 159927716150
+Tempo de ordenacao: 103253ms
+
+24)
+
+Quantidade de trocas: 159782950465
+Tempo de ordenacao: 106192ms
+
+25)
+
+Quantidade de trocas: 159810525017
+Tempo de ordenacao: 105152ms
+
+26)
+
+Quantidade de trocas: 160030630017
+Tempo de ordenacao: 104534ms
+
+27)
+
+Quantidade de trocas: 159789804340
+Tempo de ordenacao: 103357ms
+
+28)
+
+Quantidade de trocas: 160105045001
+Tempo de ordenacao: 104400ms
+
+29)
+
+Quantidade de trocas: 159849365005
+Tempo de ordenacao: 104291ms
+
+30)
+
+Quantidade de trocas: 159860431456
+Tempo de ordenacao: 103047ms
+
+Media de trocas: 159980674128
+Tempo total: 3119.4 segundos
+Media para completar: 104.0 segundos
+

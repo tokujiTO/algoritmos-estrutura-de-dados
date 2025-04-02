@@ -101,7 +101,7 @@ public class NossoVetor {
                 int x = vetor[i];
                 vetor[i] = vetor[min];
                 vetor[min] = x;
-                counter++;
+                counter += 3;
             }
         }
         return counter;
@@ -118,6 +118,7 @@ public class NossoVetor {
                 counter++;
             }
             vetor[i + 1] = x;
+            counter++;
         }
         if (counter == 0) {
             System.out.println("Vetor já ordenado");
