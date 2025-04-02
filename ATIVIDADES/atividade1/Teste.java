@@ -41,6 +41,8 @@ public class Teste {
           break;
       }
       ;
+      
+      if (!segue) break;
 
       NossoVetor vetor = new NossoVetor(tamanho);
 
