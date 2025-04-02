@@ -46,7 +46,6 @@ public class Teste {
         break;
       
       System.out.println("\nTAMANHO DO VETOR: " + tamanho);
-
       NossoVetor vetor = new NossoVetor(tamanho);
 
       System.out.println("Selecione um sort:\n");
@@ -68,12 +67,12 @@ public class Teste {
         numIteracoes = 10;
       }
 
-      vetor.preencheVetor();
-
       switch (sort) {
         case 1:
           System.out.println("SELECTION SORT");
           for (int i = 0; i < numIteracoes; i++) {
+            vetor.esvaziaVetor();
+            vetor.preencheVetor();
             System.out.println("\n" + (i + 1) + ")");
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.selectionsort();
@@ -87,6 +86,8 @@ public class Teste {
         case 2:
           System.out.println("INSERTION SORT");
           for (int i = 0; i < numIteracoes; i++) {
+            vetor.esvaziaVetor();
+            vetor.preencheVetor();
             System.out.println("\n" + (i + 1) + ")");
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.insertionSort();
@@ -100,6 +101,8 @@ public class Teste {
         case 3:
           System.out.println("BUBBLE SORT");
           for (int i = 0; i < numIteracoes; i++) {
+            vetor.esvaziaVetor();
+            vetor.preencheVetor();
             System.out.println("\n" + (i + 1) + ")");
             long tempoInicialOrdenacao = System.currentTimeMillis();
             long iteracoes = vetor.bubbleSort();

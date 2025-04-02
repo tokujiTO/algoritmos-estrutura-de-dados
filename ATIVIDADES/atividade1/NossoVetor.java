@@ -55,6 +55,13 @@ public class NossoVetor {
         return vetor.length;
     }
 
+    public void esvaziaVetor() {
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i] = 0;
+        }
+        ocupacao = 0;
+    }
+
     public void preencheVetor() {
         Random random = new Random();
         for (int i = 0; i < vetor.length; i++) {
@@ -111,6 +118,9 @@ public class NossoVetor {
                 counter++;
             }
             vetor[i + 1] = x;
+        }
+        if (counter == 0) {
+            System.out.println("Vetor já ordenado");
         }
         return counter;
     }
