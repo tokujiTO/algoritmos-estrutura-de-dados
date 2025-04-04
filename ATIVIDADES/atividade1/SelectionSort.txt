@@ -1,0 +1,1129 @@
+Selection sort
+
+100m
+Media de trocas: 5001256183
+Tempo total: 66.1 segundos
+Media para completar: 2.2 segundos
+Media Busca Linear: 98342.4
+Media Busca Binaria: 33.4
+
+200m
+Media de trocas: 20002652536
+Tempo total: 250.5 segundos
+Media para completar: 8.3 segundos
+Media Busca Linear: 190017.9
+Media Busca Binaria: 35.3
+
+400m
+Media de trocas: 80005579117
+Tempo total: 1029.0 segundos
+Media para completar: 34.3 segundos
+Media Busca Linear: 353340.6
+Media Busca Binaria: 36.6
+
+800m
+Media de trocas: 320011712852
+Tempo total: 2940,1 segundos
+Media para completar: 98,0 segundos
+Media Busca Linear: 749984,7
+Media Busca Binaria: 39,1
+
+1.6M
+Media de trocas: 1280024551410
+Tempo total: 4167,2 segundos
+Media para completar: 416,7 segundos
+Media Busca Linear: 1600000,0
+Media Busca Binaria: 41,6
+
+
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+1
+
+TAMANHO DO VETOR: 100000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+Opção:
+1
+SELECTION SORT
+
+1)
+Busca Linear: 100000
+Busca Binaria: 32
+
+Quantidade de trocas: 5001255608
+Tempo de ordenacao: 3694ms
+
+2)
+Busca Linear: 100000
+Busca Binaria: 32
+
+Quantidade de trocas: 5001252455
+Tempo de ordenacao: 3667ms
+
+3)                                                                  Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001254603
+Tempo de ordenacao: 2089ms
+
+4)
+Busca Linear: 100000
+Busca Binaria: 34                                                   Quantidade de trocas: 5001263955
+Tempo de ordenacao: 2097ms
+                                                                    5)
+Busca Linear: 100000
+Busca Binaria: 34
+                                                                    Quantidade de trocas: 5001257604
+Tempo de ordenacao: 2090ms
+
+6)                                                                  Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001258183                                    Tempo de ordenacao: 2094ms
+
+7)
+Busca Linear: 100000
+Busca Binaria: 34
+Quantidade de trocas: 5001262164
+Tempo de ordenacao: 2091ms
+
+8)
+Busca Linear: 100000
+Busca Binaria: 32
+
+Quantidade de trocas: 5001254841
+Tempo de ordenacao: 2105ms
+                                                                    9)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001259876
+Tempo de ordenacao: 2096ms
+
+10)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001253046
+Tempo de ordenacao: 2154ms
+
+11)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001248076
+Tempo de ordenacao: 2234ms
+
+12)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001262249
+Tempo de ordenacao: 2090ms
+
+13)
+Busca Linear: 100000
+Busca Binaria: 32
+
+Quantidade de trocas: 5001258375
+Tempo de ordenacao: 2101ms
+
+14)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001265900
+Tempo de ordenacao: 2082ms
+
+15)
+Busca Linear: 100000                                                Busca Binaria: 32
+
+Quantidade de trocas: 5001255931
+Tempo de ordenacao: 2085ms
+
+16)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001257438
+Tempo de ordenacao: 2099ms
+
+17)
+Busca Linear: 100000
+Busca Binaria: 27
+
+Quantidade de trocas: 5001242975
+Tempo de ordenacao: 2087ms
+
+18)
+Busca Linear: 50273
+Busca Binaria: 34
+
+Quantidade de trocas: 5001254966
+Tempo de ordenacao: 2086ms
+
+19)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001247223
+Tempo de ordenacao: 2086ms
+
+20)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001263467
+Tempo de ordenacao: 2092ms
+
+21)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001254075
+Tempo de ordenacao: 2090ms
+
+22)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001260632
+Tempo de ordenacao: 2092ms
+
+23)
+Busca Linear: 100000
+Busca Binaria: 32
+
+Quantidade de trocas: 5001250831
+Tempo de ordenacao: 2086ms
+24)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001263049
+Tempo de ordenacao: 2074ms
+
+25)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001260054
+Tempo de ordenacao: 2075ms
+
+26)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001258542
+Tempo de ordenacao: 2074ms
+
+27)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001253294
+Tempo de ordenacao: 2073ms
+
+28)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001249111
+Tempo de ordenacao: 2071ms
+
+29)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001255444
+Tempo de ordenacao: 2078ms
+
+30)
+Busca Linear: 100000
+Busca Binaria: 34
+
+Quantidade de trocas: 5001251528                                    Tempo de ordenacao: 2077ms
+
+Media de trocas: 5001256183
+Tempo total: 66.1 segundos
+Media para completar: 2.2 segundos
+Media Busca Linear: 98342.4
+Media Busca Binaria: 33.4
+
+
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+2
+
+TAMANHO DO VETOR: 200000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+Opção:
+1
+SELECTION SORT
+
+1)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002655318
+Tempo de ordenacao: 8261ms
+
+2)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002645541
+Tempo de ordenacao: 8253ms
+
+3)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002650558
+Tempo de ordenacao: 8276ms
+
+4)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002661192
+Tempo de ordenacao: 8342ms
+
+5)
+Busca Linear: 200000
+Busca Binaria: 36
+                                                                    Quantidade de trocas: 20002643033
+Tempo de ordenacao: 8317ms
+
+6)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002664404
+Tempo de ordenacao: 8334ms
+
+7)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002653451
+Tempo de ordenacao: 8356ms
+
+8)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002669231
+Tempo de ordenacao: 8349ms
+
+9)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002644896
+Tempo de ordenacao: 8354ms
+
+10)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002633543
+Tempo de ordenacao: 8355ms
+
+11)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002668103
+Tempo de ordenacao: 8359ms
+
+12)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002644205
+Tempo de ordenacao: 8355ms
+
+13)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002667516
+Tempo de ordenacao: 8361ms
+
+14)
+Busca Linear: 200000
+Busca Binaria: 35
+
+Quantidade de trocas: 20002665589
+Tempo de ordenacao: 8361ms
+
+15)
+Busca Linear: 49919
+Busca Binaria: 36
+
+Quantidade de trocas: 20002649371
+Tempo de ordenacao: 8374ms
+
+16)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002652363
+Tempo de ordenacao: 8359ms
+
+17)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002646323
+Tempo de ordenacao: 8367ms
+
+18)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002654022
+Tempo de ordenacao: 8355ms
+
+19)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002646966
+Tempo de ordenacao: 8360ms
+
+20)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002648274
+Tempo de ordenacao: 8358ms
+
+21)
+Busca Linear: 200000
+Busca Binaria: 35
+
+Quantidade de trocas: 20002647838
+Tempo de ordenacao: 8353ms
+
+22)
+Busca Linear: 50617
+Busca Binaria: 36
+
+Quantidade de trocas: 20002654874
+Tempo de ordenacao: 8357ms
+
+23)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002646050
+Tempo de ordenacao: 8341ms
+
+24)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002673382
+Tempo de ordenacao: 8352ms
+
+25)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002666958
+Tempo de ordenacao: 8362ms
+
+26)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002625539
+Tempo de ordenacao: 8359ms
+
+27)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002647502
+Tempo de ordenacao: 8354ms
+
+28)
+Busca Linear: 200000
+Busca Binaria: 36
+
+Quantidade de trocas: 20002632430
+Tempo de ordenacao: 8355ms
+
+29)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002664869
+Tempo de ordenacao: 8357ms
+
+30)
+Busca Linear: 200000
+Busca Binaria: 34
+
+Quantidade de trocas: 20002652755
+Tempo de ordenacao: 8350ms
+
+Media de trocas: 20002652536
+Tempo total: 250.5 segundos
+Media para completar: 8.3 segundos
+Media Busca Linear: 190017.9
+Media Busca Binaria: 35.3
+
+
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+3
+
+TAMANHO DO VETOR: 400000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+Opção:
+1
+SELECTION SORT
+
+1)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005588022
+Tempo de ordenacao: 33429ms
+
+2)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005551961
+Tempo de ordenacao: 33409ms
+
+3)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005567542
+Tempo de ordenacao: 33414ms
+
+4)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005562781
+Tempo de ordenacao: 33426ms
+
+5)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005602662
+Tempo de ordenacao: 33478ms
+
+6)
+Busca Linear: 400000
+Busca Binaria: 35
+
+Quantidade de trocas: 80005586905
+Tempo de ordenacao: 33839ms
+
+7)
+Busca Linear: 49872
+Busca Binaria: 38
+
+Quantidade de trocas: 80005607488
+Tempo de ordenacao: 33716ms
+
+8)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005610616
+Tempo de ordenacao: 33489ms
+
+9)
+Busca Linear: 400000
+Busca Binaria: 29
+
+Quantidade de trocas: 80005611966
+Tempo de ordenacao: 33449ms
+
+10)
+Busca Linear: 50084
+Busca Binaria: 36
+
+Quantidade de trocas: 80005553971
+Tempo de ordenacao: 33405ms
+
+11)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005565735
+Tempo de ordenacao: 33384ms
+
+12)
+Busca Linear: 400000
+Busca Binaria: 35
+
+Quantidade de trocas: 80005586417
+Tempo de ordenacao: 33537ms
+
+13)
+Busca Linear: 50052
+Busca Binaria: 38
+
+Quantidade de trocas: 80005595516
+Tempo de ordenacao: 33695ms
+
+14)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005555246
+Tempo de ordenacao: 33860ms
+
+15)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005555817
+Tempo de ordenacao: 33945ms
+
+16)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005602910
+Tempo de ordenacao: 34136ms
+
+17)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005582326
+Tempo de ordenacao: 34176ms
+
+18)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005584627
+Tempo de ordenacao: 34164ms
+
+19)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005607430
+Tempo de ordenacao: 35220ms
+
+20)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005581771
+Tempo de ordenacao: 34807ms
+
+21)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005566710
+Tempo de ordenacao: 35037ms
+
+22)
+Busca Linear: 400000
+Busca Binaria: 36
+
+Quantidade de trocas: 80005574959
+Tempo de ordenacao: 35261ms
+
+23)
+Busca Linear: 400000
+Busca Binaria: 33
+
+Quantidade de trocas: 80005567665
+Tempo de ordenacao: 35237ms
+
+24)
+Busca Linear: 50210
+Busca Binaria: 38
+
+Quantidade de trocas: 80005567122
+Tempo de ordenacao: 35275ms
+
+25)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005590145
+Tempo de ordenacao: 35315ms
+
+26)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005559360
+Tempo de ordenacao: 35723ms
+
+27)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005574191
+Tempo de ordenacao: 36010ms
+
+28)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005564755
+Tempo de ordenacao: 35408ms
+
+29)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005579320
+Tempo de ordenacao: 34707ms
+
+30)
+Busca Linear: 400000
+Busca Binaria: 38
+
+Quantidade de trocas: 80005567574
+Tempo de ordenacao: 34819ms
+
+Media de trocas: 80005579117
+Tempo total: 1029.0 segundos
+Media para completar: 34.3 segundos
+Media Busca Linear: 353340.6
+Media Busca Binaria: 36.6
+
+
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+4
+
+TAMANHO DO VETOR: 800000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+OpÃ§Ã£o:
+1
+SELECTION SORT
+
+1)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 320011680872
+Tempo de ordenacao: 141886ms
+
+2)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 320011721879
+Tempo de ordenacao: 142305ms
+
+3)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011718016
+Tempo de ordenacao: 94993ms
+
+4)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011751356
+Tempo de ordenacao: 94292ms
+
+5)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 320011713297
+Tempo de ordenacao: 94086ms
+
+6)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011764101
+Tempo de ordenacao: 94864ms
+
+7)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011743112
+Tempo de ordenacao: 95306ms
+
+8)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011695953
+Tempo de ordenacao: 94156ms
+
+9)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011676223
+Tempo de ordenacao: 94740ms
+
+10)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011679877
+Tempo de ordenacao: 95412ms
+
+11)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011776526
+Tempo de ordenacao: 94866ms
+
+12)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011719289
+Tempo de ordenacao: 94942ms
+
+13)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011719916
+Tempo de ordenacao: 94713ms
+
+14)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 320011710042
+Tempo de ordenacao: 95597ms
+
+15)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011672297
+Tempo de ordenacao: 94637ms
+
+16)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011716094
+Tempo de ordenacao: 94518ms
+
+17)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011696492
+Tempo de ordenacao: 94457ms
+
+18)
+Busca Linear: 800000
+Busca Binaria: 35
+
+Quantidade de trocas: 320011700657
+Tempo de ordenacao: 95886ms
+
+19)
+Busca Linear: 49849
+Busca Binaria: 38
+
+Quantidade de trocas: 320011711308
+Tempo de ordenacao: 94829ms
+
+20)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011683013
+Tempo de ordenacao: 94967ms
+
+21)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011759390
+Tempo de ordenacao: 95421ms
+
+22)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011699393
+Tempo de ordenacao: 95282ms
+
+23)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011741733
+Tempo de ordenacao: 94614ms
+
+24)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011708418
+Tempo de ordenacao: 94774ms
+
+25)
+Busca Linear: 800000
+Busca Binaria: 31
+
+Quantidade de trocas: 320011697098
+Tempo de ordenacao: 95422ms
+
+26)
+Busca Linear: 49693
+Busca Binaria: 40
+
+Quantidade de trocas: 320011712385
+Tempo de ordenacao: 95113ms
+
+27)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 320011686592
+Tempo de ordenacao: 94861ms
+
+28)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011732685
+Tempo de ordenacao: 93540ms
+
+29)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 320011679696
+Tempo de ordenacao: 94609ms
+
+30)
+Busca Linear: 800000
+Busca Binaria: 38
+                                                                                        
+Quantidade de trocas: 320011717860                                                       
+Tempo de ordenacao: 94814ms                                                              
+
+Media de trocas: 320011712852
+Tempo total: 2940,1 segundos
+Media para completar: 98,0 segundos
+Media Busca Linear: 749984,7
+Media Busca Binaria: 39,1
+
+
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+5
+
+TAMANHO DO VETOR: 1600000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+OpÃ§Ã£o:
+1
+vetor de 1.6M !!
+SELECTION SORT
+
+1)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 1280024621339
+Tempo de ordenacao: 563923ms
+
+2)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024577133
+Tempo de ordenacao: 570477ms
+
+3)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024557425
+Tempo de ordenacao: 378876ms
+
+4)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024513731
+Tempo de ordenacao: 379944ms
+
+5)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 1280024561289
+Tempo de ordenacao: 379215ms
+
+6)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024527916
+Tempo de ordenacao: 379784ms
+
+7)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024596373
+Tempo de ordenacao: 378602ms
+
+8)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024547330
+Tempo de ordenacao: 379722ms
+
+9)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024506603
+Tempo de ordenacao: 377747ms
+
+10)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 1280024504965
+Tempo de ordenacao: 378779ms
+
+Media de trocas: 1280024551410
+Tempo total: 4167,2 segundos
+Media para completar: 416,7 segundos
+Media Busca Linear: 1600000,0
+Media Busca Binaria: 41,6
