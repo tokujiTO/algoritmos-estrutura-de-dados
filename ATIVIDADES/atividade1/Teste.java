@@ -143,7 +143,7 @@ public class Teste {
 
       long tempoFinal = System.currentTimeMillis();
       double tempoTotalSegundos = (tempoFinal - tempoInicial)/1000.0;
-      System.out.printf("\nMedia de trocas: " + (somaTrocas / (tamanho == 30.0 ? 30 : 10) ) );
+      System.out.printf("\nMedia de trocas: " + (somaTrocas / (long) numIteracoes ) );
       double mediaSegundos = (somaTempo/numIteracoes)/1000.0;
       System.out.printf("\nTempo total: %.1f segundos\n", tempoTotalSegundos);
       System.out.printf("Media para completar: %.1f segundos\n", mediaSegundos);

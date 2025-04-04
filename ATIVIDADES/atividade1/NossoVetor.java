@@ -71,22 +71,22 @@ public class NossoVetor {
     }
 
     public long bubbleSort() {
-    long counter = 0;
-    boolean trocou = true;
-    for (int i = 0; i < ocupacao - 1 && trocou; i++) {  // Usar ocupacao, não vetor.length
-        trocou = false; 
-        for (int j = 0; j < ocupacao - i - 1; j++) {  // Limite corrigido
-            if (vetor[j] > vetor[j + 1]) {
-                int aux = vetor[j];
-                vetor[j] = vetor[j + 1];
-                vetor[j + 1] = aux;
-                counter = counter + 3; // 3 trocas para ficar "Justo" com os outros métodos
-                trocou = true;
+        long counter = 0;
+        boolean trocou = true;
+        for (int i = 0; i < ocupacao - 1 && trocou; i++) { 
+            trocou = false; 
+            for (int j = 0; j < ocupacao - i - 1; j++) {
+                counter++;
+                if (vetor[j] > vetor[j + 1]) {
+                    int aux = vetor[j];
+                    vetor[j] = vetor[j + 1];
+                    vetor[j + 1] = aux;
+                    counter+=3; 
+                    trocou = true;
+                }
             }
         }
-        // if (!trocou) break;   // Otimização: se não houve trocas, o vetor já está ordenado
-    }
-    return counter;
+        return counter;
     }
 
     public long selectionsort() {
@@ -94,8 +94,11 @@ public class NossoVetor {
         for (int i = 0; i < vetor.length - 1; ++i) {
             int min = i;
             for (int j = i + 1; j < vetor.length; ++j)
-                if (vetor[j] < vetor[min])
+                counter++;
+                if (vetor[j] < vetor[min]) {
                     min = j;
+                    counter++;
+                }
 
             if (min != i) {
                 int x = vetor[i];
@@ -114,8 +117,8 @@ public class NossoVetor {
             int x = vetor[j];
             int i;
             for (i = j - 1; i >= 0 && vetor[i] > x; --i) {
-                vetor[i + 1] = vetor[i];
                 counter++;
+                vetor[i + 1] = vetor[i];
             }
             vetor[i + 1] = x;
             counter++;
