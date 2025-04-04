@@ -93,13 +93,13 @@ public class NossoVetor {
         long counter = 0;
         for (int i = 0; i < vetor.length - 1; ++i) {
             int min = i;
-            int j;
-            for (j = i + 1; j < vetor.length; ++j)
+            for (int j = i + 1; j < vetor.length; ++j) {
                 counter++;
                 if (vetor[j] < vetor[min]) {
                     min = j;
                     counter++;
-                }
+                }                
+            }
 
             if (min != i) {
                 int x = vetor[i];
