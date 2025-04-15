@@ -10,7 +10,7 @@ public class Teste {
       System.out.println("\n\nSelecione um tamanho: \n");
       System.out.println("[1] - 100m\n");
       System.out.println("[2] - 200m\n");
-      System.out.println("[3] - 400m\n");
+      System.out.println("[3] - 400m\n");  
       System.out.println("[4] - 800m\n");
       System.out.println("[5] - 1,6M\n");
       System.out.println("cancelar - 0\n");

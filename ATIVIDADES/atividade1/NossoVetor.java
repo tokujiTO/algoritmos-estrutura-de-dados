@@ -111,7 +111,6 @@ public class NossoVetor {
         return counter;
     }
     
-    // CORRIGIR O INSERTION SORT
     public long insertionSort() {
         long counter = 0;
         for (int j = 1; j < vetor.length; ++j) {
