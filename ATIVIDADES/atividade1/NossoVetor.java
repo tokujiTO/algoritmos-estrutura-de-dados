@@ -157,8 +157,10 @@ public class NossoVetor {
   }
 
   public void quickSort(int p, int r) {
+    System.out.println("p: " + p + " r: " + r);
     if (p < r) {
       int q = partition(p, r);
+      System.out.println("q: " + q);
       quickSort(p, q - 1);
       quickSort(q + 1, r);
     }

@@ -155,13 +155,13 @@ public class Teste {
     // System.out.printf("Media Busca Binaria: %.1f\n", (somaBinaria /
     // numIteracoes));
 
-    // } while (tamanho != 0);
-    // scanner.close();
-    System.out.println("Digite o tamanho do vetor: ");
+    NossoVetor v = new NossoVetor();
     Scanner scanner = new Scanner(System.in);
+    System.out.println("Digite o tamanho do vetor, 0 encerra: ");
     int t = scanner.nextInt();
+
     while (t > 0) {
-      NossoVetor v = new NossoVetor(t);
+      v = new NossoVetor(t);
       v.preencheVetor();
       long ini = new Date().getTime();
       v.insertionSort();
@@ -176,9 +176,35 @@ public class Teste {
       System.out.println("Vetor ordenado: " + v);
       System.out.println("Quick, para o tamanho " + t + " levou " + (fim - ini) + "ms");
 
-      System.out.println("Digite o tamanho do vetor: ");
+      System.out.println("Digite o tamanho do vetor, 0 encerra: ");
       t = scanner.nextInt();
     }
+
+
+    // } while (tamanho != 0);
+    // scanner.close();
+    // System.out.println("Digite o tamanho do vetor: ");
+    // Scanner scanner = new Scanner(System.in);
+    // int t = scanner.nextInt();
+    // while (t > 0) {
+    //   NossoVetor v = new NossoVetor(t);
+    //   v.preencheVetor();
+    //   long ini = new Date().getTime();
+    //   v.insertionSort();
+    //   long fim = new Date().getTime();
+    //   System.out.println("Vetor ordenado: " + v);
+    //   System.out.println("Insertion, para o tamanho " + t + " levou " + (fim - ini) + "ms");
+
+    //   v.preencheVetor();
+    //   ini = new Date().getTime();
+    //   v.quickSort(0, t - 1);
+    //   fim = new Date().getTime();
+    //   System.out.println("Vetor ordenado: " + v);
+    //   System.out.println("Quick, para o tamanho " + t + " levou " + (fim - ini) + "ms");
+
+    //   System.out.println("Digite o tamanho do vetor: ");
+    //   t = scanner.nextInt();
+    // }
 
   }
 }
