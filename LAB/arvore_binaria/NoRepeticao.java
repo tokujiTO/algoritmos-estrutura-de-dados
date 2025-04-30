@@ -3,7 +3,7 @@ public class NoRepeticao extends No {
 
   public NoRepeticao(int info) {
     super(info);
-    this.ocorrencias = 0;
+    ocorrencias = 1;
   }
 
   public int getOcorrencias() {
@@ -14,8 +14,12 @@ public class NoRepeticao extends No {
     this.ocorrencias = ocorrencias;
   }
 
+  public void incrementaOcorrencias() {
+    ocorrencias++;
+  }
+
   @Override
   public String toString() {
-    return super.toString() + ", ocorre " + ocorrencias + " vezes";
+    return super.toString() + ", ocorre " + ocorrencias + " vezes\n";
   }
 }
