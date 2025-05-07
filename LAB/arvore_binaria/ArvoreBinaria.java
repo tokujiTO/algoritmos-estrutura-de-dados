@@ -85,6 +85,36 @@ public class ArvoreBinaria {
     return alturaDireita > alturaEsquerda ? alturaDireita + 1 : alturaEsquerda + 1;
   }
 
+  public void removeValor(int info) {
+    removeValorRec(info, raiz, null, false);
+  }
+
+  private void removeValorRec(int info, No atual, No pai, boolean eFilhoDireita) {
+    if (info == atual.getInfo()) {
+      if (atual.getDireita() == null && atual.getEsquerda() == null) {
+        // n tem filhos
+        if (eFilhoDireita)
+          pai.setDireita(null);
+        else
+          pai.setEsquerda(null);
+      } else if (ataul.getDireita() == null) {
+        // tem soh o filho da esquerda
+
+      } else if (atual.getEsquerda() == null) {
+        // tem soh o filho da direita
+
+      } else {
+        // tem dois filhos
+
+      }
+    } else {
+      if (info > atual.getInfo())
+        removeValorRec(info, atual.getDireita(), atual, true);
+      else
+        removeValorRec(info, atual.getEsquerda(), atual, false);
+    }
+  }
+
   @Override
   public String toString() {
     if (arvoreVazia()) {
