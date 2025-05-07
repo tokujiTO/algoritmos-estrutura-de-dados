@@ -86,26 +86,57 @@ public class ArvoreBinaria {
   }
 
   public void removeValor(int info) {
-    removeValorRec(info, raiz, null, false);
+    if (arvoreVazia())
+      throw new RuntimeException("falha na remocao, arvore vazia");
+    if (info == raiz.getInfo()) {
+      if (raiz.getDireita() == null && raiz.getEsquerda() == null) {
+        raiz = null;
+      } else if (raiz.getDireita() == null) {
+        raiz = raiz.getEsquerda();
+      } else if (raiz.getEsquerda() == null) {
+        raiz = raiz.getDireita();
+      } else {
+        No suc = sucessor(raiz);
+        suc.setEsquerda(raiz.getEsquerda());
+        raiz = raiz.getDireita();
+      }
+    } else {
+      if (info > raiz.getInfo())
+        removeValorRec(info, raiz.getDireita(), raiz, true);
+      else
+        removeValorRec(info, raiz.getEsquerda(), raiz, false);
+    }
   }
 
   private void removeValorRec(int info, No atual, No pai, boolean eFilhoDireita) {
     if (info == atual.getInfo()) {
       if (atual.getDireita() == null && atual.getEsquerda() == null) {
-        // n tem filhos
+        // Não tem filhos
         if (eFilhoDireita)
           pai.setDireita(null);
         else
           pai.setEsquerda(null);
-      } else if (ataul.getDireita() == null) {
-        // tem soh o filho da esquerda
-
+      } else if (atual.getDireita() == null) {
+        // Tem só o filho da esquerda
+        if (eFilhoDireita)
+          pai.setDireita(atual.getEsquerda());
+        else
+          pai.setEsquerda(atual.getEsquerda());
       } else if (atual.getEsquerda() == null) {
-        // tem soh o filho da direita
-
+        // Tem só o filho da direita
+        if (eFilhoDireita)
+          pai.setDireita(atual.getDireita());
+        else
+          pai.setEsquerda(atual.getDireita());
       } else {
-        // tem dois filhos
-
+        // Tem dois filhos
+        // Vamos encontrar o sucessor deste nó
+        No suc = sucessor(atual);
+        suc.setEsquerda(atual.getEsquerda());
+        if (eFilhoDireita)
+          pai.setDireita(suc);
+        else
+          pai.setEsquerda(suc);
       }
     } else {
       if (info > atual.getInfo())
@@ -113,6 +144,38 @@ public class ArvoreBinaria {
       else
         removeValorRec(info, atual.getEsquerda(), atual, false);
     }
+  }
+
+  public int contaNos() {
+    if (arvoreVazia())
+      return 0;
+    return contaRec(raiz);
+  }
+
+  private int contaRec(No atual) {
+    int nos = 0;
+    if (atual.getEsquerda() != null)
+      nos += contaRec(atual.getEsquerda());
+    nos++;
+    if (atual.getDireita() != null)
+      nos += contaRec(atual.getDireita());
+    return nos;
+  }
+
+  private No sucessor(No atual) {
+    No suc = atual.getDireita();
+    No runner = suc.getEsquerda();
+    No pai = atual;
+    while (runner != null) {
+      pai = suc;
+      suc = runner;
+      runner = runner.getEsquerda();
+    }
+    if (suc != atual.getDireita()) {
+      pai.setEsquerda(suc.getDireita());
+      suc.setEsquerda(atual.getDireita());
+    }
+    return suc;
   }
 
   @Override

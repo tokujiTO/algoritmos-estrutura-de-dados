@@ -6,6 +6,8 @@ public class TesteNovo {
     a.insere(6);
     a.insere(4);
     a.insere(5);
+    System.out.println(a);
     System.out.println(a.altura());
+    System.out.println(a.contaNos());
   }
 }
