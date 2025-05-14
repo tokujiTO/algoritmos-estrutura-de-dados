@@ -41,7 +41,60 @@ public class NossoHash<K, V> {
         System.out.println("{chave: " + atual.chave + ", valor: " + atual.valor + "}");
         atual = atual.proximo;
       }
-      System.out.println("\\\\--------------\\\\");
+      System.out.println("\\\\");
     }
+  }
+
+  public V remove(K chave) {
+    int indice = hash(chave);
+    V valor = null;
+    if (tabela[indice].chave.equals(chave)) {
+      valor = tabela[indice].valor;
+      tabela[indice] = tabela[indice].proximo;
+      return valor;
+    }
+    Entrada<K, V> atual = tabela[indice].proximo;
+    Entrada<K, V> anterior = tabela[indice];
+    while (atual != null) {
+      if (atual.chave.equals(chave)) {
+        valor = atual.valor;
+        anterior.proximo = atual.proximo;
+        return valor;
+      }
+      anterior = atual;
+      atual = atual.proximo;
+    }
+    return valor;
+  }
+
+  public boolean estaVazia() {
+    for (int i = 0; i < capacidade; i++) {
+      if (tabela[i] != null)
+        return false;
+    }
+    return true;
+  }
+
+  public boolean contemValor(V valor) {
+    for (int i = 0; i < capacidade; i++) {
+      Entrada<K, V> atual = tabela[i];
+      while (atual != null) {
+        if (atual.valor.equals(valor))
+          return true;
+        atual = atual.proximo;
+      }
+    }
+    return false;
+  }
+
+  public boolean contemChave(K chave) {
+    int indice = hash(chave);
+    Entrada<K, V> atual = tabela[indice];
+    while (atual != null) {
+      if (atual.chave.equals(chave))
+        return true;
+      atual = atual.proximo;
+    }
+    return false;
   }
 }
