@@ -6,6 +6,10 @@ public class Fila {
     return primeiro == null;
   }
 
+  public No getPrimeiro() {
+    return primeiro;
+  }
+
   public void Adiciona(String nome, String conteudo) {
     No novo = new No(nome, conteudo);
     if (filaVazia())

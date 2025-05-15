@@ -2,8 +2,7 @@
 public class Pilha {
   private No topo;
 
-  public void push(String nome, String conteudo) {
-    No novo = new No(nome, conteudo);
+  public void push(No<T> novo) {
     if (!pilhaVazia()) {
       novo.setProximo(topo);
     }

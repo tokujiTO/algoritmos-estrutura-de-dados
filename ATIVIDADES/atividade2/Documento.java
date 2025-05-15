@@ -1,48 +1,48 @@
 public class Documento implements Comparable<Documento> {
-  private String nome;
-  private String conteudo;
-  private int horaEntrada;
+  private String usuario;
+  private String titulo;
+  private long horaEntrada;
 
-  public Documento(String nome, String conteudo, int horaEntrada) {
-    this.nome = nome;s
-    this.conteudo = conteudo;
+  public Documento(String usuario, String titulo, long horaEntrada) {
+    this.usuario = usuario;
+    this.titulo = titulo;
     this.horaEntrada = horaEntrada;
   }
 
-  public String getNome() {
-    return nome;
+  public String getUsuario() {
+    return usuario;
   }
 
-  public void setNome(String nome) {
-    this.nome = nome;
+  public void setUsuario(String usuario) {
+    this.usuario = usuario;
   }
 
-  public String getConteudo() {
-    return conteudo;
+  public String getTitulo() {
+    return titulo;
   }
 
-  public void setConteudo(String conteudo) {
-    this.conteudo = conteudo;
+  public void setTitulo(String titulo) {
+    this.titulo = titulo;
   }
 
-  public int getHoraEntrada() {
+  public long getHoraEntrada() {
     return horaEntrada;
   }
 
-  public void setHoraEntrada(int horaEntrada) {
+  public void setHoraEntrada(long horaEntrada) {
     this.horaEntrada = horaEntrada;
   }
 
   @Override
   public String toString() {
     return "Documento{" +
-        "nome='" + nome + '\'' +
-        ", conteudo='" + conteudo + '\'' +
+        "usuario='" + usuario + '\'' +
+        ", titulo='" + titulo + '\'' +
         '}';
   }
 
   @Override
   public int compareTo(Documento outro) {
-    return this.nome.compareTo(outro.nome);
+    return this.usuario.compareTo(outro.usuario);
   }
 }
