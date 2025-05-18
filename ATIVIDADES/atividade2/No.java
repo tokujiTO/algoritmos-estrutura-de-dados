@@ -1,7 +1,7 @@
 public class No<T extends Comparable<T>> {
   private T info;
-  private No<T> esquerda;
-  private No<T> direita;
+  private No<T> anterior;
+  private No<T> proximo;
 
   public No(T info) {
     this.info = info;
@@ -11,20 +11,20 @@ public class No<T extends Comparable<T>> {
     return info;
   }
 
-  public No<T> getEsquerda() {
-    return esquerda;
+  public No<T> getAnterior() {
+    return anterior;
   }
 
-  public No<T> getDireita() {
-    return direita;
+  public No<T> getProximo() {
+    return proximo;
   }
 
-  public void setEsquerda(No<T> esquerda) {
-    this.esquerda = esquerda;
+  public void setAnterior(No<T> anterior) {
+    this.anterior = anterior;
   }
 
-  public void setDireita(No<T> direita) {
-    this.direita = direita;
+  public void setProximo(No<T> proximo) {
+    this.proximo = proximo;
   }
 
   @Override

@@ -1,8 +1,8 @@
 
 public class Pilha {
-  private No topo;
+  private No<Documento> topo;
 
-  public void push(No<T> novo) {
+  public void push(No<Documento> novo) {
     if (!pilhaVazia()) {
       novo.setProximo(topo);
     }
@@ -13,7 +13,7 @@ public class Pilha {
     return topo == null;
   }
 
-  public char pop() {
+  public void pop() {
     if (pilhavazia()) {
       throw new RuntimeException("Pilha vazia");
     } else {

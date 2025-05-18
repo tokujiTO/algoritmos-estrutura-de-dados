@@ -1,17 +1,17 @@
 public class Fila {
-  private No primeiro;
-  private No ultimo;
+  private No<Documento> primeiro;
+  private No<Documento> ultimo;
 
   public boolean filaVazia() {
     return primeiro == null;
   }
 
-  public No getPrimeiro() {
+  public No<Documento> getPrimeiro() {
     return primeiro;
   }
 
-  public void Adiciona(String nome, String conteudo) {
-    No novo = new No(nome, conteudo);
+  public void adiciona(Documento doc) {
+    No<Documento> novo = new No<>(doc);
     if (filaVazia())
       primeiro = novo;
     else
@@ -19,13 +19,13 @@ public class Fila {
     ultimo = novo;
   }
 
-  public int imprime() {
+  public Documento imprime() {
     if (filaVazia())
       throw new RuntimeException("Fila vazia");
-    String temp = primeiro.getInfo();
+    Documento temp = primeiro.getInfo();
     primeiro = primeiro.getProximo();
-    if (primeiro == null) // esvaziou a fila
-      ultimo = null; // cortando a referência para liberar a memória
+    if (primeiro == null)
+      ultimo = null;
     return temp;
   }
 
@@ -33,10 +33,10 @@ public class Fila {
   public String toString() {
     if (filaVazia())
       return "Fila vazia";
-    String s = "";
-    No runner = primeiro;
+    StringBuilder s = new StringBuilder();
+    No<Documento> runner = primeiro;
     while (runner != null) {
-      s += runner + "->";
+      s.append(runner).append("->");
       runner = runner.getProximo();
     }
     return s + "\\\\";
