@@ -1,0 +1,21 @@
+{
+  "tabWidth": 4,
+  "useTabs": false,
+  "singleQuote": true,
+  "printWidth": 100,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "semi": true,
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": "*.java",
+      "options": {
+        "tabWidth": 4,
+        "singleQuote": false,
+        "bracketSpacing": true,
+        "semi": true
+      }
+    }
+  ]
+}
