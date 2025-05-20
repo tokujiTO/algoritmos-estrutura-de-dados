@@ -2,7 +2,12 @@
 public class Pilha {
   private No<Documento> topo;
 
-  public void push(No<Documento> novo) {
+  public No<Documento> getTopo() {
+    return topo;
+  }
+
+  public void push(Documento doc) {
+    No<Documento> novo = new No<>(doc);
     if (!pilhaVazia()) {
       novo.setProximo(topo);
     }
@@ -14,29 +19,24 @@ public class Pilha {
   }
 
   public void pop() {
-    if (pilhavazia()) {
+    if (pilhaVazia()) {
       throw new RuntimeException("Pilha vazia");
     } else {
-      char info = topo.getInfo();
       topo = topo.getProximo();
-      return info;
     }
   }
 
-  public char peek() {
-    if (pilhavazia()) {
-      throw new RuntimeException("Pilha vazia");
-    } else {
-      return topo.getInfo();
+  @Override
+  public String toString() {
+    if (pilhaVazia()) {
+      return "Pilha vazia";
     }
-  }
-
-  public void invertPilha() {
-    Pilha pilhaAux = new Pilha();
-    while (!pilhaVazia()) {
-      pilhaAux.push(pop())
+    StringBuilder s = new StringBuilder();
+    No<Documento> runner = topo;
+    while (runner != null) {
+      s.append(runner).append("->");
+      runner = runner.getProximo();
     }
-    this.topo = pilhaAux.topo;
+    return s + "\\\\";
   }
-
 }
