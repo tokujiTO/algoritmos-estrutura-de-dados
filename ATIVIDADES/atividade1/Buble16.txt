@@ -1,0 +1,63 @@
+
+
+Selecione um tamanho: 
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao: 
+
+TAMANHO DO VETOR: 1600000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+Opção: 
+vetor de 1.6M !!
+BUBBLE SORT
+
+1)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 3200377003575
+Tempo de ordenacao: 2805330ms
+
+2)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 3199871264862
+Tempo de ordenacao: 2816160ms
+
+3)
+Busca Linear: 1600000
+Busca Binaria: 37
+
+Quantidade de trocas: 3199248043187
+Tempo de ordenacao: 2026179ms
+
+4)
+Busca Linear: 49702
+Busca Binaria: 42
+
+Quantidade de trocas: 3200301794981
+Tempo de ordenacao: 2032448ms
+
+5)
+Busca Linear: 1600000

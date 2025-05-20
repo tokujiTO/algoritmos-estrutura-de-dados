@@ -1,45 +1,66 @@
-Insertion Sort
+Microsoft Windows [versão 10.0.19045.5608]
+(c) Microsoft Corporation. Todos os direitos reservados.
 
-100m
-Media de trocas: 2499498964
-Tempo total: 135,1 segundos
-Media para completar: 4,5 segundos
-Media Busca Linear: 93339,2
-Media Busca Binaria: 33,0
+C:\Users\vanpr>cd algoritmos-estruturas-de-dados
+O sistema não pode encontrar o caminho especificado.
 
-200m
-Media de trocas: 10003455881
-Tempo total: 572,4 segundos
-Media para completar: 19,1 segundos
-Media Busca Linear: 195000,8
-Media Busca Binaria: 35,0
+C:\Users\vanpr>cd OneDrive
 
-400m
-Media de trocas: 39998391860
-Tempo total: 2545,7 segundos
-Media para completar: 84,8 segundos
-Media Busca Linear: 376668,8
-Media Busca Binaria: 37,1
+C:\Users\vanpr\OneDrive>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 6EC4-D956
 
-800m
-Media de trocas: 160002414205
-Tempo total: 1001,3 segundos
-Media para completar: 33,4 segundos
-Media Busca Linear: 749986,8
-Media Busca Binaria: 39,3
+ Pasta de C:\Users\vanpr\OneDrive
 
-1.6M
-Media de trocas: 640123779691
-Tempo total: 1439,5 segundos
-Media para completar: 143,9 segundos
-Media Busca Linear: 1600000,0
-Media Busca Binaria: 41,0
+02/12/2024  20:04    <DIR>          .
+02/12/2024  20:04    <DIR>          ..
+25/10/2022  21:37     (114.442.240) aplicativoitau.msi
+05/10/2024  14:08    <DIR>          Aplicativos
+05/10/2024  14:07    <DIR>          ATUAL-CASTRO
+29/11/2024  02:16         5.465.969 Aula 1.pptx
+19/04/2024  13:28         (284.117) CNH-e 1.pdf
+19/04/2024  13:28         (284.117) CNH-e.pdf
+02/12/2024  20:05             1.140 Cofre Pessoal.lnk
+10/11/2024  16:40           (9.583) Documento.docx
+02/12/2024  19:41    <DIR>          Imagens
+05/10/2024  14:08    <DIR>          Imports
+28/07/2019  15:04       (1.030.854) Introdução ao OneDrive.pdf
+02/12/2024  19:41    <DIR>          JOÃO 23
+02/12/2024  19:46    <DIR>          TUDO
+20/03/2025  08:15    <DIR>          Área de Trabalho
+               7 arquivo(s)    121.518.020 bytes
+               9 pasta(s)   912.374.214.656 bytes disponíveis
 
+C:\Users\vanpr\OneDrive>cd TUDO
 
+C:\Users\vanpr\OneDrive\TUDO>cd Documentos
 
+C:\Users\vanpr\OneDrive\TUDO\Documentos>cd GitHub
 
+C:\Users\vanpr\OneDrive\TUDO\Documentos\GitHub>cd algoritmos-estrutura-de-dados
 
+C:\Users\vanpr\OneDrive\TUDO\Documentos\GitHub\algoritmos-estrutura-de-dados>cd ATIVIDADES
 
+C:\Users\vanpr\OneDrive\TUDO\Documentos\GitHub\algoritmos-estrutura-de-dados\ATIVIDADES>cd atividade1
+
+C:\Users\vanpr\OneDrive\TUDO\Documentos\GitHub\algoritmos-estrutura-de-dados\ATIVIDADES\atividade1>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 6EC4-D956
+
+ Pasta de C:\Users\vanpr\OneDrive\TUDO\Documentos\GitHub\algoritmos-estrutura-de-dados\ATIVIDADES\atividade1
+
+04/04/2025  09:41    <DIR>          .
+04/04/2025  09:41    <DIR>          ..
+04/04/2025  09:41                31 .gitignore
+04/04/2025  09:41            56.065 graficos.ipynb
+04/04/2025  09:41             4.635 NossoVetor.java
+04/04/2025  09:41             6.044 Teste.java
+               4 arquivo(s)         66.775 bytes
+               2 pasta(s)   912.400.109.568 bytes disponíveis
+
+C:\Users\vanpr\OneDrive\TUDO\Documentos\GitHub\algoritmos-estrutura-de-dados\ATIVIDADES\atividade1>javac Teste.java
+
+C:\Users\vanpr\OneDrive\TUDO\Documentos\GitHub\algoritmos-estrutura-de-dados\ATIVIDADES\atividade1>java Teste
 
 
 Selecione um tamanho:
@@ -789,7 +810,6 @@ Media Busca Linear: 376668,8
 Media Busca Binaria: 37,1
 
 
-
 Selecione um tamanho:
 
 [1] - 100m
@@ -805,345 +825,3 @@ Selecione um tamanho:
 cancelar - 0
 
 Opcao:
-4
-
-TAMANHO DO VETOR: 800000
-Selecione um sort:
-
-[1] Selection Sort
-
-[2] Insertion Sort
-
-[3] Bubble Sort
-
-[4] Cancelar
-
-OpÃ§Ã£o:
-2
-INSERTION SORT
-
-1)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159809657999
-Tempo de ordenacao: 37696ms
-
-2)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159809135330
-Tempo de ordenacao: 37629ms
-
-3)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 160192301211
-Tempo de ordenacao: 37825ms
-
-4)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160033312955
-Tempo de ordenacao: 37861ms
-
-5)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 159944591856
-Tempo de ordenacao: 35141ms
-
-6)
-Busca Linear: 800000
-Busca Binaria: 39
-
-Quantidade de trocas: 160135413518
-Tempo de ordenacao: 34148ms
-
-7)
-Busca Linear: 49711
-Busca Binaria: 40
-
-Quantidade de trocas: 160072932857
-Tempo de ordenacao: 36781ms
-
-8)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160011060694
-Tempo de ordenacao: 37242ms
-
-9)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159893608049
-Tempo de ordenacao: 38159ms
-
-10)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160014478603
-Tempo de ordenacao: 30952ms
-
-11)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 160049560052
-Tempo de ordenacao: 31226ms
-
-12)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159961789669
-Tempo de ordenacao: 30911ms
-
-13)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 160066769478
-Tempo de ordenacao: 30726ms
-
-14)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 160029852752
-Tempo de ordenacao: 30760ms
-
-15)
-Busca Linear: 800000
-Busca Binaria: 35
-
-Quantidade de trocas: 159861025405
-Tempo de ordenacao: 30884ms
-
-16)
-Busca Linear: 49892
-Busca Binaria: 40
-
-Quantidade de trocas: 159991440187
-Tempo de ordenacao: 31193ms
-
-17)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 160015000126
-Tempo de ordenacao: 31132ms
-
-18)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160083873362
-Tempo de ordenacao: 32578ms
-
-19)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159986684200
-Tempo de ordenacao: 37970ms
-
-20)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159934246247
-Tempo de ordenacao: 38585ms
-
-21)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160043282914
-Tempo de ordenacao: 32579ms
-
-22)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 160096844579
-Tempo de ordenacao: 30935ms
-
-23)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160006606966
-Tempo de ordenacao: 31163ms
-
-24)
-Busca Linear: 800000
-Busca Binaria: 38
-
-Quantidade de trocas: 160112308235
-Tempo de ordenacao: 30966ms
-
-25)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159955126053
-Tempo de ordenacao: 31139ms
-
-26)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159978392114
-Tempo de ordenacao: 30995ms
-
-27)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160023221630
-Tempo de ordenacao: 31118ms
-
-28)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159904506157
-Tempo de ordenacao: 30819ms
-
-29)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 159928747524
-Tempo de ordenacao: 30897ms
-
-30)
-Busca Linear: 800000
-Busca Binaria: 40
-
-Quantidade de trocas: 160126655443
-Tempo de ordenacao: 31025ms
-
-Media de trocas: 160002414205
-Tempo total: 1001,3 segundos
-Media para completar: 33,4 segundos
-Media Busca Linear: 749986,8
-Media Busca Binaria: 39,3
-
-
-Selecione um tamanho:
-
-[1] - 100m
-
-[2] - 200m
-
-[3] - 400m
-
-[4] - 800m
-
-[5] - 1,6M
-
-cancelar - 0
-
-Opcao:
-5
-
-TAMANHO DO VETOR: 1600000
-Selecione um sort:
-
-[1] Selection Sort
-
-[2] Insertion Sort
-
-[3] Bubble Sort
-
-[4] Cancelar
-
-OpÃ§Ã£o:
-2
-vetor de 1.6M !!
-INSERTION SORT
-
-1)
-Busca Linear: 1600000
-Busca Binaria: 42
-
-Quantidade de trocas: 640177402033
-Tempo de ordenacao: 160653ms
-
-2)
-Busca Linear: 1600000
-Busca Binaria: 40
-
-Quantidade de trocas: 639935985006
-Tempo de ordenacao: 149861ms
-
-3)
-Busca Linear: 1600000
-Busca Binaria: 42
-
-Quantidade de trocas: 640266130867
-Tempo de ordenacao: 175181ms
-
-4)
-Busca Linear: 1600000
-Busca Binaria: 42
-
-Quantidade de trocas: 640620744406
-Tempo de ordenacao: 133937ms
-
-5)
-Busca Linear: 1600000
-Busca Binaria: 40
-
-Quantidade de trocas: 640316588093
-Tempo de ordenacao: 130668ms
-
-6)
-Busca Linear: 1600000
-Busca Binaria: 42
-
-Quantidade de trocas: 639747262024
-Tempo de ordenacao: 161783ms
-
-7)
-Busca Linear: 1600000
-Busca Binaria: 40
-
-Quantidade de trocas: 639916957225
-Tempo de ordenacao: 129290ms
-
-8)
-Busca Linear: 1600000
-Busca Binaria: 40
-
-Quantidade de trocas: 640035098504
-Tempo de ordenacao: 128519ms
-
-9)
-Busca Linear: 1600000
-Busca Binaria: 42
-
-Quantidade de trocas: 640397122981
-Tempo de ordenacao: 129131ms
-
-10)
-Busca Linear: 1600000
-Busca Binaria: 40
-
-Quantidade de trocas: 639824505779
-Tempo de ordenacao: 140222ms
-
-Media de trocas: 640123779691
-Tempo total: 1439,5 segundos
-Media para completar: 143,9 segundos
-Media Busca Linear: 1600000,0
-Media Busca Binaria: 41,0

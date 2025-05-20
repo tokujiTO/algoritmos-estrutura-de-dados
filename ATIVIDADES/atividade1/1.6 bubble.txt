@@ -1,0 +1,184 @@
+
+C:\Users\24.01779-5>cd Documents
+
+C:\Users\24.01779-5\Documents>git clone https://github.com/tokujiTO/algoritmos-estrutura-de-dados.git
+Cloning into 'algoritmos-estrutura-de-dados'...
+remote: Enumerating objects: 362, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 362 (delta 16), reused 19 (delta 11), pack-reused 331 (from 1)
+Receiving objects: 100% (362/362), 383.15 KiB | 6.97 MiB/s, done.
+Resolving deltas: 100% (165/165), done.
+
+C:\Users\24.01779-5\Documents>cd algoritmos-estrutura-de-dados
+
+C:\Users\24.01779-5\Documents\algoritmos-estrutura-de-dados>cd ATIVIDADES
+
+C:\Users\24.01779-5\Documents\algoritmos-estrutura-de-dados\ATIVIDADES>cd atividade1
+
+C:\Users\24.01779-5\Documents\algoritmos-estrutura-de-dados\ATIVIDADES\atividade1>javac Teste.java
+
+C:\Users\24.01779-5\Documents\algoritmos-estrutura-de-dados\ATIVIDADES\atividade1>java Teste
+
+
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+5
+
+TAMANHO DO VETOR: 1600000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+OpÃ§Ã£o:
+2
+vetor de 1.6M !!
+INSERTION SORT
+
+1)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 640177402033
+Tempo de ordenacao: 160653ms
+
+2)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 639935985006
+Tempo de ordenacao: 149861ms
+
+3)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 640266130867
+Tempo de ordenacao: 175181ms
+
+4)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 640620744406
+Tempo de ordenacao: 133937ms
+
+5)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 640316588093
+Tempo de ordenacao: 130668ms
+
+6)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 639747262024
+Tempo de ordenacao: 161783ms
+
+7)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 639916957225
+Tempo de ordenacao: 129290ms
+
+8)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 640035098504
+Tempo de ordenacao: 128519ms
+
+9)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 640397122981
+Tempo de ordenacao: 129131ms
+
+10)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 639824505779
+Tempo de ordenacao: 140222ms
+
+Media de trocas: 640123779691
+Tempo total: 1439,5 segundos
+Media para completar: 143,9 segundos
+Media Busca Linear: 1600000,0
+Media Busca Binaria: 41,0
+
+
+Selecione um tamanho:
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao:
+5
+
+TAMANHO DO VETOR: 1600000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+OpÃ§Ã£o:
+3
+vetor de 1.6M !!
+BUBBLE SORT
+
+1)
+Busca Linear: 1600000
+Busca Binaria: 40
+
+Quantidade de trocas: 3199845698928
+Tempo de ordenacao: 3757307ms
+
+2)
+Busca Linear: 1600000
+Busca Binaria: 42
+
+Quantidade de trocas: 3199945745894
+Tempo de ordenacao: 3394813ms
+
+3)
+Busca Linear: 1600000
+^C
+C:\Users\24.01779-5\Documents\algoritmos-estrutura-de-dados\ATIVIDADES\atividade1>+

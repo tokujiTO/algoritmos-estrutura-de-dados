@@ -1,0 +1,118 @@
+
+
+Selecione um tamanho: 
+
+[1] - 100m
+
+[2] - 200m
+
+[3] - 400m
+
+[4] - 800m
+
+[5] - 1,6M
+
+cancelar - 0
+
+Opcao: 
+
+TAMANHO DO VETOR: 800000
+Selecione um sort:
+
+[1] Selection Sort
+
+[2] Insertion Sort
+
+[3] Bubble Sort
+
+[4] Cancelar
+
+Opção: 
+BUBBLE SORT
+
+1)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 800086040334
+Tempo de ordenacao: 1091355ms
+
+2)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 800537472415
+Tempo de ordenacao: 939270ms
+
+3)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 799978225099
+Tempo de ordenacao: 608876ms
+
+4)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 799387966087
+Tempo de ordenacao: 588145ms
+
+5)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 800276624824
+Tempo de ordenacao: 637631ms
+
+6)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 799804266864
+Tempo de ordenacao: 586198ms
+
+7)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 799211555020
+Tempo de ordenacao: 596723ms
+
+8)
+Busca Linear: 800000
+Busca Binaria: 38
+
+Quantidade de trocas: 800941353327
+Tempo de ordenacao: 590508ms
+
+9)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 799578878853
+Tempo de ordenacao: 594712ms
+
+10)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 800184601975
+Tempo de ordenacao: 589988ms
+
+11)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 799529716422
+Tempo de ordenacao: 590188ms
+
+12)
+Busca Linear: 800000
+Busca Binaria: 40
+
+Quantidade de trocas: 799532867946
+Tempo de ordenacao: 597448ms
+
+13)
+Busca Linear: 800000
