@@ -109,6 +109,8 @@ public class ArvoreBinaria {
   }
 
   private void removeValorRec(int info, No atual, No pai, boolean eFilhoDireita) {
+    if (atual == null)
+      throw new RuntimeException("Elemento não encontrado, falha na remoção");
     if (info == atual.getInfo()) {
       if (atual.getDireita() == null && atual.getEsquerda() == null) {
         // Não tem filhos
@@ -183,14 +185,14 @@ public class ArvoreBinaria {
     if (arvoreVazia()) {
       return "Arvore vazia";
     } else
-      return "[" + stringEmOrdemRec(raiz) + "]";
+      return "[\n" + stringEmOrdemRec(raiz) + "]";
   }
 
   String stringEmOrdemRec(No atual) {
     String s = "";
     if (atual.getEsquerda() != null)
       s += stringEmOrdemRec(atual.getEsquerda());
-    s += atual + " ";
+    s += atual + "";
     if (atual.getDireita() != null)
       s += stringEmOrdemRec(atual.getDireita());
     return s;
