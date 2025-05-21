@@ -185,7 +185,7 @@ public class ArvoreBinaria {
     if (arvoreVazia()) {
       return "Arvore vazia";
     } else
-      return "[\n" + stringEmOrdemRec(raiz) + "]";
+      return "x[\n" + stringEmOrdemRec(raiz) + "]";
   }
 
   String stringEmOrdemRec(No atual) {
